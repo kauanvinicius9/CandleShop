@@ -19,12 +19,4 @@ docker compose up -d
 ## Accessibility
 
 - Sign language support.
-
----
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=ts" height="45" alt="typescript logo" title="TypeScript" />
-  <img src="https://skillicons.dev/icons?i=angular" height="45" alt="angularjs logo" title="Angular" />
-  <img src="https://skillicons.dev/icons?i=sass" height="45" alt="sass logo" title="SCSS" />
-  <img src="https://skillicons.dev/icons?i=docker" height="45" alt="docker logo" title="Docker" />
-</div>
+s
