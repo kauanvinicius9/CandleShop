@@ -18,5 +18,4 @@ docker compose up -d
 
 ## Accessibility
 
-- Sign language support.
-s
+- Sign language support
