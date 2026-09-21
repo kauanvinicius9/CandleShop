@@ -1,14 +1,14 @@
 # Candles & Scents 
 
-Reviva Atelier is a small **E-Commerce** site focused on **candles**, **diffusers**, and **home sprays**.
+Reviva Atelie is a small **E-Commerce** site focused on **candles**, **diffusers**, and **home sprays**.
 
-> Run frontend
+> Frontend
 
 ```bash
 ng serve
 ```
 
-> Run Docker
+> Docker
 
 ```bash
 docker compose up -d
