@@ -19,3 +19,5 @@ docker compose up -d
 ## Accessibility
 
 - Sign language support
+- `TAB` Navigation.
+
