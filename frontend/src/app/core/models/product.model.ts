@@ -1,4 +1,4 @@
-export type ProductCategory = 'vela' | 'home-spray' | 'difusor';
+export type ProductCategory = "vela" | "home-spray" | "difusor";
 
 export interface Product {
   id: number;

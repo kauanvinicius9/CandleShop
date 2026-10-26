@@ -1,16 +1,16 @@
-import { Component, OnInit, signal } from '@angular/core';
-import { Title, Meta } from '@angular/platform-browser';
-import { RouterLink } from '@angular/router';
-import { Product } from '../../core/models/product.model';
-import { ProductService } from '../../core/services/product.service';
-import { ProductCardComponent } from '../product-card/product-card.component';
+import { Component, OnInit, signal } from "@angular/core";
+import { Title, Meta } from "@angular/platform-browser";
+import { RouterLink } from "@angular/router";
+import { Product } from "../../core/models/product.model";
+import { ProductService } from "../../core/services/product.service";
+import { ProductCardComponent } from "../product-card/product-card.component";
 
 @Component({
-  selector: 'app-home',
+  selector: "app-home",
   standalone: true,
   imports: [RouterLink, ProductCardComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  templateUrl: "./home.component.html",
+  styleUrl: "./home.component.scss"
 })
 
 export class HomeComponent implements OnInit {
