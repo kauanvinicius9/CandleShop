@@ -1,7 +1,7 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal } from "@angular/core";
 import { EmailService } from "../../core/services/email.service";
-import { FormBuilder, FormGroup, ReactiveFormsModule, Validators, AbstractControl, ValidationErrors } from '@angular/forms';
-import { ConfirmationModalComponent } from '../../confirmation-modal.component';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators, AbstractControl, ValidationErrors } from "@angular/forms";
+import { ConfirmationModalComponent } from "../../confirmation-modal.component";
 
 function noWhiteSpaceValidator(control: AbstractControl): ValidationErrors | null {
   if (!control.value) {
@@ -12,11 +12,11 @@ function noWhiteSpaceValidator(control: AbstractControl): ValidationErrors | nul
 }
 
 @Component({
-  selector: 'app-contact',
+  selector: "app-contact",
   standalone: true,
   imports: [ReactiveFormsModule, ConfirmationModalComponent],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.scss'
+  templateUrl: "./contact.component.html",
+  styleUrl: "./contact.component.scss"
 })
 export class ContactComponent {
   readonly submitted = signal(false);
@@ -33,9 +33,9 @@ export class ContactComponent {
     private readonly emailService: EmailService
   ) {
     this.contactForm = this.formBuilder.group({
-      name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(100), noWhiteSpaceValidator]],
-      email: ['', [Validators.required, Validators.pattern(this.emailRegex)]],
-      message: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(1000), noWhiteSpaceValidator]]
+      name: ["", [Validators.required, Validators.minLength(3), Validators.maxLength(100), noWhiteSpaceValidator]],
+      email: ["", [Validators.required, Validators.pattern(this.emailRegex)]],
+      message: ["", [Validators.required, Validators.minLength(10), Validators.maxLength(1000), noWhiteSpaceValidator]]
     });
   }
 
