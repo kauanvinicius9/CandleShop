@@ -91,14 +91,6 @@
       grid-template-columns: 1fr;
       gap: 2rem;
     }
-
-    &__sidebar {
-      position: static;
-    }
-
-    &__image {
-      height: 280px;
-    }
   }
 }
 
@@ -139,10 +131,6 @@
 
   .about-products {
     padding: 1.5rem 0;
-
-    &__image {
-      height: 220px;
-    }
   }
 
   .info-card {
