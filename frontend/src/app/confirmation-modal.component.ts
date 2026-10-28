@@ -8,21 +8,18 @@ import { Component, ElementRef, ViewChild, input, output, effect } from "@angula
 })
 export class ConfirmationModalComponent {
     isOpen = input<boolean>(false);
-    title = input<string>('Confirmação');
-    message = input<string>('Deseja prosseguir?');
+    title = input<string>("Confirmação");
+    message = input<string>("Deseja prosseguir?");
 
     confirmed = output<void>();
     cancelled = output<void>();
 
-    @ViewChild('dialogRef') dialogRef!: ElementRef<HTMLDialogElement>;
+    @ViewChild("dialogRef") dialogRef!: ElementRef<HTMLDialogElement>;
 
     constructor() {
         effect(() => {
-            if (this.isOpen()) {
-                this.dialogRef?.nativeElement.showModal();
-            } else {
-                this.dialogRef?.nativeElement.close();
-            }
+            if (this.isOpen()) { this.dialogRef?.nativeElement.showModal() } 
+            else { this.dialogRef?.nativeElement.close() }
         });
     }
 

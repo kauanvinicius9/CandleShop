@@ -6,10 +6,12 @@
         Velas artesanais, home sprays e difusores criados para trazer calma,
         aconchego e personalidade para cada cômodo da sua casa.
       </p>
+
       <div class="hero__buttons">
         <a routerLink="/produtos" class="btn_primary">Ver produtos</a>
         <a routerLink="/contato" class="btn_outline">Entre em contato</a>
       </div>
+
     </div>
   </div>
 </section>
@@ -39,9 +41,7 @@
     <p class="section-subtitle">Uma seleção dos aromas favoritos dos nossos clientes.</p>
 
     <div class="featured__grid">
-      @for (product of featuredProducts(); track product.id) {
-        <app-product-card [product]="product"></app-product-card>
-      }
+      @for (product of featuredProducts(); track product.id) { <app-product-card [product]="product"></app-product-card> }
     </div>
   </div>
 </section>

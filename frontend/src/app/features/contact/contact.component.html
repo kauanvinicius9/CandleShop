@@ -10,61 +10,39 @@
       <ul class="contact__list">
         <li><strong>E-mail:</strong> salescristina809&#64;gmail.com</li>
         <li>
-          <a href="https://www.instagram.com/revivavelascampinas?igsh=MWp0M2VsYnloa3k5Mw=="target="_blank" rel="noopener noreferrer">
-            <strong>Instagram:</strong> &#64;revivavelas
-          </a>
+          <a href="https://www.instagram.com/revivavelascampinas?igsh=MWp0M2VsYnloa3k5Mw=="target="_blank" rel="noopener noreferrer"><strong>Instagram:</strong> &#64;revivavelas</a>
         </li>
       </ul>
     </div>
 
     <form class="contact__form" [formGroup]="contactForm">
       
-      @if (submitted()) {
-        <p class="contact__success">Mensagem enviada com sucesso. Retornaremos em breve.</p>
-      }
-
-      @if (errorMessage()) {
-        <p class="contact__error">Erro ao enviar mensagem. Tente novamente mais tarde.</p>
-      }
+      @if (submitted()) { <p class="contact__success">Mensagem enviada com sucesso. Retornaremos em breve.</p> }
+      @if (errorMessage()) { <p class="contact__error">Erro ao enviar mensagem. Tente novamente mais tarde.</p> }
 
       <div class="field">
         <label for="contact-name">Nome</label>
         <input id="contact-name" type="text" formControlName="name" placeholder="Seu nome">
-        @if (f['name'].touched && f['name'].invalid) {
-          <span class="field__error">Informe seu nome (mínimo de 3 caracteres)</span>
-        }
+        @if (f['name'].touched && f['name'].invalid) { <span class="field__error">Informe seu nome (mínimo de 3 caracteres)</span> }
       </div>
 
       <div class="field">
         <label for="contact-email">E-mail</label>
         <input id="contact-email" type="email" formControlName="email" placeholder="voce@dominio.com">
-        @if (f['email'].touched && f['email'].invalid) {
-          <span class="field__error">Informe um e-mail válido. Ex: email&#64;dominio.com</span>
-        }
+        @if (f['email'].touched && f['email'].invalid) { <span class="field__error">Informe um e-mail válido. Ex: email&#64;dominio.com</span> }
       </div>
 
       <div class="field">
         <label for="contact-message">Mensagem</label>
         <textarea id="contact-message" rows="5" formControlName="message" placeholder="Escreva sua mensagem..."></textarea>
-        @if (f['message'].touched && f['message'].invalid) {
-          <span class="field__error">Sua mensagem precisa ter pelo menos 10 caracteres válidos</span>
-        }
+        @if (f['message'].touched && f['message'].invalid) { <span class="field__error">Sua mensagem precisa ter pelo menos 10 caracteres válidos</span> }
       </div>
 
-      <button 
-        type="button" 
-        (click)="openModal()" 
-        [disabled]="sending() || contactForm.invalid" 
-        class="btn__send_message">
+      <button type="button" (click)="openModal()" [disabled]="sending() || contactForm.invalid" class="btn__send_message">
         {{ sending() ? "Enviando..." : "Enviar mensagem" }}
       </button>
     </form>
 
-    <app-confirmation-modal 
-      [isOpen]="showConfirmModal()" 
-      title="Enviar mensagem" 
-      message="Deseja nos enviar esta mensagem?" 
-      (confirmed)="handleConfirm()" 
-      (cancelled)="handleCancel()" />
+    <app-confirmation-modal [isOpen]="showConfirmModal()" title="Enviar mensagem" message="Deseja nos enviar esta mensagem?" (confirmed)="handleConfirm()" (cancelled)="handleCancel()" />
   </div>
 </section>
