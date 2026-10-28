@@ -1,4 +1,4 @@
-@use "../scss/variables" as *;
+@use "../styles.scss" as *;
 
 dialog:not([open]) {
     display: none !important;
@@ -45,12 +45,12 @@ dialog:not([open]) {
         border-radius: 6px;
         cursor: pointer;
         border: none;
-        background: $color-brown;
+        background: $color-blue-500;
         transition: 0.3s ease;
     }
 
     .btn-primary {
-        background: $color-brown;
+        background: $color-blue-500;
         color: $color-white;
         transition: 0.3s ease;
         border-radius: 20px;
@@ -63,14 +63,14 @@ dialog:not([open]) {
 
     .btn-secondary {
         background: $color-white;
-        color: $color-brown;
-        border: 2px solid $color-brown;
+        color: $color-blue-500;
+        border: 2px solid $color-blue-500;
         transition: 0.3s ease;
         border-radius: 20px;
         width: 100%;
 
         &:hover {
-            background: $color-brown;
+            background: $color-blue-500;
             color: $color-white;
         }
     }

@@ -1,7 +1,7 @@
-@use "../../../scss/variables" as *;
+@use "../../../styles.scss" as *;
 
 .hero {
-  background: linear-gradient(135deg, $color-cream-dark, $color-beige);
+  background: linear-gradient(135deg, $color-clean-200, $color-blue-100);
   padding: 64px 0;
   display: flex;
   align-items: center;
@@ -101,7 +101,7 @@
 
 .btn_primary {
   padding: 13px 25px;
-  background: $color-brown;
+  background: $color-blue-500;
   color: $color-white;
   border-radius: 25px;
 
@@ -112,12 +112,12 @@
 
 .btn_outline {
   padding: 11px 25px;
-  border: 2px solid $color-brown;
+  border: 2px solid $color-blue-500;
   border-radius: 25px;
-  color: $color-brown;
+  color: $color-blue-500;
 
   &:hover {
-    background: $color-brown;
+    background: $color-blue-500;
     color: $color-white;
   }
 }
