@@ -22,24 +22,6 @@
     gap: 1.5rem;
   }
 
-  &__sidebar {
-    top: 100px;
-  }
-
-  &__image-card {
-    background: #fff;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  }
-
-  &__image {
-    width: 100%;
-    height: 380px;
-    object-fit: cover;
-    display: block;
-  }
-
   &__badge {
     padding: 1.5rem;
 

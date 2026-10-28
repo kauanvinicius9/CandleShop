@@ -70,15 +70,9 @@ export class ContactComponent {
     }
 
     const rawData = this.contactForm.getRawValue();
-
-    const data = {
-      name: rawData.name?.trim(),
-      email: rawData.email?.trim(),
-      message: rawData.message?.trim()
-    };
+    const data = { name: rawData.name?.trim(), email: rawData.email?.trim(), message: rawData.message?.trim()};
 
     this.sending.set(true);
-
     this.emailService.sendEmail(data).subscribe({
       next: () => {
         this.submitted.set(true);

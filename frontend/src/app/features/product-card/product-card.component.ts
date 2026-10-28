@@ -15,11 +15,7 @@ export class ProductCardComponent {
   readonly showConfirmModal = signal<boolean>(false);
   private readonly whatsappNumber = "5519999582649"; 
   get categoryLabel(): string {
-    const labels: Record<string, string> = {
-      vela: "Vela",
-      "home-spray": "Home Spray",
-      difusor: "Difusor"
-    };
+    const labels: Record<string, string> = { vela: "Vela", "home-spray": "Home Spray", difusor: "Difusor" };
     return labels[this.product.category] ?? this.product.category;
   }
 
@@ -38,10 +34,8 @@ export class ProductCardComponent {
 
   private redirectToWhatsApp(): void {
     const formattedPrice = this.product.price.toFixed(2).replace(".", ",");
-
-    const text = `Olá! Gostaria de comprar o produto *${this.product.name}* (R$ ${formattedPrice}). Pode me ajudar?`;
+    const text = `Olá! Gostaria de comprar o produto *${this.product.name}* (R$ ${formattedPrice}). Poderia me ajudar?`;
     const whatsappUrl = `https://wa.me/${this.whatsappNumber}?text=${encodeURIComponent(text)}`;
-
     window.location.href = whatsappUrl;
   }
 }

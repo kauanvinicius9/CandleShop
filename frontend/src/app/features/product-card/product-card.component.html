@@ -10,21 +10,11 @@
     <p class="product-card__description">{{ product.description }}</p>
     <p class="product-card__price">R$ {{ product.price.toFixed(2).replace('.', ',') }}</p>
 
-    @if (product.volumML) {
-      <p class="product-card__weight">{{ product.volumML }}ml</p>
-    }
-
-    @if (product.weightG) {
-      <p class="product-card__weight">{{ product.weightG }}g</p>
-    }
+    @if (product.volumML) { <p class="product-card__weight">{{ product.volumML }}ml</p> }
+    @if (product.weightG) { <p class="product-card__weight">{{ product.weightG }}g</p> }
 
     <button class="product-card__button" type="button" (click)="openModal()">Compre pelo WhatsApp</button>
   </div>
 </article>
 
-<app-confirmation-modal 
-  [isOpen]="showConfirmModal()" 
-  title="Comprar via WhatsApp" 
-  [message]="'Você será redirecionado para o WhatsApp para finalizar o pedido de ' + product.name + '.'" 
-  (confirmed)="handleConfirm()" 
-  (cancelled)="handleCancel()" />
+<app-confirmation-modal  [isOpen]="showConfirmModal()"  title="Comprar via WhatsApp"  [message]="'Você será redirecionado para o WhatsApp para finalizar o pedido de ' + product.name + '.'"  (confirmed)="handleConfirm()"  (cancelled)="handleCancel()" />
