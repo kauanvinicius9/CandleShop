@@ -1,4 +1,4 @@
-@use "../../../scss/variables" as *;
+@use "../../../styles.scss" as *;
 
 .products {
   padding: 48px 0 80px;
@@ -14,7 +14,7 @@
     padding: 10px 20px;
     border-radius: 999px;
     background: $color-white;
-    color: $color-brown-dark;
+    color: $color-blue-500-2;
     box-shadow: $shadow-soft;
     transition: .3s ease;
     white-space: nowrap;
@@ -24,7 +24,7 @@
     }
 
     &.is-active {
-      background: $color-brown-dark;
+      background: $color-blue-500-2;
       color: $color-white;
     }
   }

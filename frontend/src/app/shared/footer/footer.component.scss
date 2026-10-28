@@ -1,9 +1,9 @@
-@use "../../../scss/variables" as *;
+@use "../../../styles.scss" as *;
 
 .footer {
   margin-top: auto;
   background: $color-ink;
-  color: $color-cream;
+  color: $color-clean-100;
 
   &__inner {
     display: flex;
