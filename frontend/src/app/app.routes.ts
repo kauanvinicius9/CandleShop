@@ -3,11 +3,12 @@ import { HomeComponent } from './features/home/home.component';
 import { ProductsComponent } from './features/products/products.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { AboutProductsComponent } from './features/about/about.component';
+import { NotFoundComponent } from './features/not-found/not-found.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, title: 'Reviva | Velas & Aromas' },
   { path: 'produtos', component: ProductsComponent, title: 'Produtos | Reviva' },
   { path: 'contato', component: ContactComponent, title: 'Contato | Reviva' },
   { path: 'sobre', component: AboutProductsComponent, title: 'Sobre | Reviva' },
-  { path: '**', redirectTo: '' }
+  { path: '**', component: NotFoundComponent, title: 'Página Não Encontrada' }
 ];
