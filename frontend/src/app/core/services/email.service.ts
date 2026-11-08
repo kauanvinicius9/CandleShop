@@ -10,9 +10,7 @@ export class EmailService {
     private readonly templateid = "template_o6yst2t";
     private readonly publickey = "_gywwE8Rq6W38f5Rn";
 
-    sendEmail(data: {
-        name: string;
-        email: string;
-        message: string;
-    }) {return from(emailjs.send(this.serviceid, this.templateid, data, {publicKey: this.publickey}))}   
+    sendEmail(data: { name: string; email: string; message: string; }) {
+        return from(emailjs.send(this.serviceid, this.templateid, data, {publicKey: this.publickey}))
+    }   
 }
