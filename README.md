@@ -1,3 +1,8 @@
+<h1>
+   <img src="./frontend/src/assets/Logo-Reviva-Icon-White-512x512.svg" alt="Logo Reviva" width="50" align="left">
+   <span>CandleShop Project Documentation</span>
+</h1>
+
 ## CandleShop Project Documentation
 
 ## Overview
