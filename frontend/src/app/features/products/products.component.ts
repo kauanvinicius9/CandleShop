@@ -15,12 +15,10 @@ type CategoryFilter = ProductCategory | "todos";
 export class ProductsComponent implements OnInit {
   readonly allProducts = signal<Product[]>([]);
   readonly activeFilter = signal<CategoryFilter>("todos");
-
   readonly filteredProducts = computed(() => {
-    const filter = this.activeFilter();
 
+    const filter = this.activeFilter();
     if (filter === "todos") { return this.allProducts() }
-    
     return this.allProducts().filter((product) => product.category === filter);
   });
 
@@ -33,11 +31,6 @@ export class ProductsComponent implements OnInit {
 
   constructor(private readonly productService: ProductService) {}
 
-  ngOnInit(): void {
-    this.productService.getAll().subscribe((products) => this.allProducts.set(products));
-  }
-
-  setFilter(filter: CategoryFilter): void {
-    this.activeFilter.set(filter);
-  }
+  ngOnInit(): void { this.productService.getAll().subscribe((products) => this.allProducts.set(products)); }
+  setFilter(filter: CategoryFilter): void { this.activeFilter.set(filter); }
 }

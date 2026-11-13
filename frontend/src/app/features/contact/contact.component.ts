@@ -51,14 +51,8 @@ export class ContactComponent {
     this.showConfirmModal.set(true);
   }
 
-  handleConfirm(): void {
-    this.showConfirmModal.set(false); 
-    this.submit();
-  }
-
-  handleCancel(): void {
-    this.showConfirmModal.set(false);
-  }
+  handleConfirm(): void {this.showConfirmModal.set(false); this.submit(); }
+  handleCancel(): void { this.showConfirmModal.set(false); }
 
   submit(): void {
     this.submitted.set(false);

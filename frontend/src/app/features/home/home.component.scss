@@ -103,7 +103,7 @@
   padding: 13px 25px;
   background: $color-blue-500;
   color: $color-white;
-  border-radius: 25px;
+  border-radius: 7px;
 
   &:hover {
     opacity: .85;
@@ -113,7 +113,7 @@
 .btn_outline {
   padding: 11px 25px;
   border: 2px solid $color-blue-500;
-  border-radius: 25px;
+  border-radius: 7px;
   color: $color-blue-500;
 
   &:hover {

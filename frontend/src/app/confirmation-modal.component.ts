@@ -10,7 +10,6 @@ export class ConfirmationModalComponent {
     isOpen = input<boolean>(false);
     title = input<string>("Confirmação");
     message = input<string>("Deseja prosseguir?");
-
     confirmed = output<void>();
     cancelled = output<void>();
 
@@ -23,11 +22,6 @@ export class ConfirmationModalComponent {
         });
     }
 
-    onConfirm(): void {
-        this.confirmed.emit();
-    }
-
-    onCancel(): void {
-        this.cancelled.emit();
-    }
+    onConfirm(): void { this.confirmed.emit(); }
+    onCancel(): void { this.cancelled.emit(); }
 }

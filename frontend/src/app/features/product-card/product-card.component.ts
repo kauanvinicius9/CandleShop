@@ -19,18 +19,9 @@ export class ProductCardComponent {
     return labels[this.product.category] ?? this.product.category;
   }
 
-  openModal(): void {
-    this.showConfirmModal.set(true);
-  }
-
-  handleCancel(): void {
-    this.showConfirmModal.set(false);
-  }
-
-  handleConfirm(): void {
-    this.showConfirmModal.set(false);
-    this.redirectToWhatsApp();
-  }
+  openModal(): void { this.showConfirmModal.set(true); }
+  handleCancel(): void { this.showConfirmModal.set(false); }
+  handleConfirm(): void { this.showConfirmModal.set(false); this.redirectToWhatsApp(); }
 
   private redirectToWhatsApp(): void {
     const formattedPrice = this.product.price.toFixed(2).replace(".", ",");

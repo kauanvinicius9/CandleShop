@@ -17,4 +17,10 @@
   </div>
 </article>
 
-<app-confirmation-modal  [isOpen]="showConfirmModal()"  title="Comprar via WhatsApp"  [message]="'Você será redirecionado para o WhatsApp para finalizar o pedido de ' + product.name + '.'"  (confirmed)="handleConfirm()"  (cancelled)="handleCancel()" />
+<app-confirmation-modal  
+[isOpen]="showConfirmModal()"  
+title="Comprar via WhatsApp"  
+[message]="'Você será redirecionado ao WhatsApp para finalizar o pedido: ' + product.name + '.'"  
+(confirmed)="handleConfirm()"  
+(cancelled)="handleCancel()" 
+/>
