@@ -127,16 +127,6 @@ export class ProductService {
     },
     {
       id: 13,
-      name: "Coleção Fé: Luminária Nossa Senhora Aparecida (Reutilizável)",
-      category: "vela",
-      fragrance: "Sweet Floral",
-      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
-      price: 69.80,
-      imagePlaceholder: "assets/candles/candleBlueOcean.webp",
-      weightG: 100,
-    },
-    {
-      id: 14,
       name: "Coleção Fé: Nossa Senhora Aparecida / Nossa Senhora Perpétuo Socorro",
       category: "vela",
       fragrance: "Lavanda, Calmaria",
@@ -146,17 +136,17 @@ export class ProductService {
       weightG: 100,
     },
     {
-      id: 15,
+      id: 14,
       name: "Kit Difusor Aromático: Morango (Consulte Cor da Cerâmica)",
       category: "difusor",
       fragrance: "Doce, Vibrante",
-      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção,além do prazo de entrega.",
       price: 62.90,
       imagePlaceholder: "assets/diffusors/diffuser.webp",
       volumML: 10,
     },
     {
-      id: 16,
+      id: 15,
       name: "Kit Difusor Aromático: Jasmin (Consulte Cor da Cerâmica",
       category: "difusor",
       fragrance: "Floral, Sofisticação",
@@ -166,7 +156,7 @@ export class ProductService {
       volumML: 10,
     },
     {
-      id: 17,
+      id: 16,
       name: "Kit Difusor Aromático: Chá Branco (Consulte Cor da Cerâmica",
       category: "difusor",
       fragrance: "Leveza, Elegância",
@@ -176,7 +166,7 @@ export class ProductService {
       volumML: 10,
     },
     {
-      id: 18,
+      id: 17,
       name: "Aromatizador Veicular em Vidro (Tampa de Madeira)",
       category: "difusor",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -186,7 +176,7 @@ export class ProductService {
       volumML: 8,
     },
     {
-      id: 19,
+      id: 18,
       name: "Coleção Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro",
       category: "difusor",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -196,7 +186,7 @@ export class ProductService {
       volumML: 250,
     },
     {
-      id: 20,
+      id: 19,
       name: "Coleção Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Pet",
       category: "difusor",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -206,7 +196,7 @@ export class ProductService {
       volumML: 250,
     },
     {
-      id: 21,
+      id: 20,
       name: "Coleção Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro",
       category: "difusor",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -236,7 +226,7 @@ export class ProductService {
       volumML: 150,
     },
     {
-      id: 22,
+      id: 23,
       name: "Coleção Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Vidro - Bico do Gatilho",
       category: "home-spray",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -246,7 +236,7 @@ export class ProductService {
       volumML: 150,
     },
     {
-      id: 23,
+      id: 24,
       name: "Coleção Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Pet - Bico do Spray",
       category: "home-spray",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -256,7 +246,7 @@ export class ProductService {
       volumML: 300,
     },
     {
-      id: 24,
+      id: 25,
       name: "Coleção Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Pet",
       category: "home-spray",
       fragrance: "Bambu, Flor de Cerejeira",
@@ -266,7 +256,7 @@ export class ProductService {
       volumML: 250,
     },
     {
-      id: 25,
+      id: 26,
       name: "Vela para Massagem: Alecrim e Chá Branco",
       category: "vela",
       fragrance: "Frescor, Leveza",
@@ -276,7 +266,7 @@ export class ProductService {
       weightG: 250,
     },
     {
-      id: 26,
+      id: 27,
       name: "Vela para Massagem: Flor de Figo",
       category: "vela",
       fragrance: "Sofisticação",
@@ -286,7 +276,7 @@ export class ProductService {
       weightG: 10,
     },
     {
-      id: 27,
+      id: 28,
       name: "Vela para Massagem: Baunilha",
       category: "vela",
       fragrance: "Aconchego, Doce",
@@ -296,7 +286,7 @@ export class ProductService {
       weightG: 10,
     },
     {
-      id: 28,
+      id: 29,
       name: "Coleção Lembranças e Eventos: Chá Revelação",
       category: "vela",
       fragrance: "Comfort Baby",
@@ -306,7 +296,7 @@ export class ProductService {
       weightG: 200,
     },
     {
-      id: 29,
+      id: 30,
       name: "Coleção Lembranças e Eventos: Cerveja (Copo Americano e Rótulo Personalizável) - Consulte Valores",
       category: "vela",
       fragrance: "Cera de Coco",
@@ -316,7 +306,7 @@ export class ProductService {
       weightG: 150,
     },
     {
-      id: 30,
+      id: 31,
       name: "Coleção Lembranças e Eventos: Trio de Velas (Vidro Patê com Fósforos) - Rótulo, Fita e Aroma Ajustados ao Tema de Sua Festa, Valor Negociável",
       category: "vela",
       fragrance: "Escolha do Cliente",
@@ -326,7 +316,7 @@ export class ProductService {
       weightG: 90,
     },
     {
-      id: 31,
+      id: 32,
       name: "Edição Especial: Vela Bridgerton",
       category: "vela",
       fragrance: "Sweet Floral",
@@ -336,7 +326,7 @@ export class ProductService {
       weightG: 80,
     },
     {
-      id: 32,
+      id: 33,
       name: "Edição Especial: Vela Iceberg - Blue Ocean (Efeito de Bolhas e Textura Dupla)",
       category: "vela",
       fragrance: "Fresco, Marinho, Revigorante",
@@ -346,7 +336,7 @@ export class ProductService {
       weightG: 100,
     },
     {
-      id: 33,
+      id: 34,
       name: "Bosque Secreto",
       category: "vela",
       fragrance: "English Pear",
@@ -356,7 +346,7 @@ export class ProductService {
       weightG: 260,
     },
     {
-      id: 34,
+      id: 35,
       name: "Coleção de Natal: Vela Decorativa Anjo de Natal",
       category: "vela",
       fragrance: "Baunilha",
@@ -366,7 +356,7 @@ export class ProductService {
       weightG: 80,
     },
     {
-      id: 35,
+      id: 36,
       name: "Coleção de Natal: Bola de Natal Capadócia",
       category: "vela",
       fragrance: "Baunilha",
@@ -376,7 +366,7 @@ export class ProductService {
       weightG: 40,
     },
     {
-      id: 36,
+      id: 37,
       name: "Coleção de Natal: Latinhas Natalinas Charmosas",
       category: "vela",
       fragrance: "Baunilha",
@@ -386,7 +376,7 @@ export class ProductService {
       weightG: 40,
     },
     {
-      id: 37,
+      id: 38,
       name: "Coleção de Natal: Duo Velas Natalinas",
       category: "vela",
       fragrance: "Baunilha",
@@ -396,7 +386,7 @@ export class ProductService {
       weightG: 30,
     },
     {
-      id: 38,
+      id: 39,
       name: "Coleção de Natal: Mini Lata (R$ 12.90 Acima de 10 Unidades)",
       category: "vela",
       fragrance: "Baunilha",
@@ -406,7 +396,7 @@ export class ProductService {
       weightG: 20,
     },
     {
-      id: 39,
+      id: 40,
       name: "Coleção de Natal: Mini Lata Cartão Postal Vintage (R$ 12,90 Acima de 10 Unidades)",
       category: "vela",
       fragrance: "Baunilha",
