@@ -29,8 +29,6 @@ export class HomeComponent implements OnInit {
       content: "Transforme seu ambiente com a Reviva Velas. Velas aromáticas 100% artesanais, feitas com cera vegetal e essências premium. Compre online e receba em casa"
     });
 
-    this.productService.getAll().subscribe((products) => {
-      this.featuredProducts.set(products.slice(0, 4));
-    });
+    this.productService.getAll().subscribe((products) => { this.featuredProducts.set(products.slice(0, 4)) });
   }
 }

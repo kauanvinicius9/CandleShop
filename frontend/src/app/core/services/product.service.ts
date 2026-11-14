@@ -12,7 +12,7 @@ export class ProductService {
       fragrance: "Floral, Fresca, Adocicada, Herbal",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 31.90,
-      imagePlaceholder: "assets/Candle-Lavanda.webp",
+      imagePlaceholder: "assets/candles/candleLavander.webp",
       weightG: 90,
     },
     {
@@ -22,7 +22,7 @@ export class ProductService {
       fragrance: "Cremosidade, Baunilha, Gourmand Oriental",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 31.90,
-      imagePlaceholder: "assets/Candle-Pistache.webp",
+      imagePlaceholder: "assets/candles/candlePistachio.webp",
       weightG: 90,
     },
     {
@@ -32,7 +32,7 @@ export class ProductService {
       fragrance: "Fresco, Elegante, Jasmin, Flor de Lótus",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 31.90,
-      imagePlaceholder: "assets/Candle-Cha-Branco.webp",
+      imagePlaceholder: "assets/candles/candleWhiteTea.webp",
       weightG: 90,
     },
     {
@@ -42,7 +42,7 @@ export class ProductService {
       fragrance: "Morango, Doce, Fruta",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 46.90,
-      imagePlaceholder: "assets/Candle-StrawBerry-1.webp",
+      imagePlaceholder: "assets/candles/candleStrawberry1.webp",
       weightG: 100,
     },
     {
@@ -52,7 +52,7 @@ export class ProductService {
       fragrance: "Morango, Doce, Fruta",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 36.90,
-      imagePlaceholder: "assets/Candle-StrawBerry-2.webp",
+      imagePlaceholder: "assets/candles/candleStrawBerry2.webp",
       weightG: 100,
     },
     {
@@ -62,7 +62,7 @@ export class ProductService {
       fragrance: "Morango, Doce, Fruta",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 69.90,
-      imagePlaceholder: "assets/Candle-StrawBerry-3.webp",
+      imagePlaceholder: "assets/candles/candleStrawBerry3.webp",
       weightG: 300,
     },
     {
@@ -72,7 +72,7 @@ export class ProductService {
       fragrance: "Cereja",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 35.90,
-      imagePlaceholder: "assets/Candle-Flower-Cer.webp",
+      imagePlaceholder: "assets/candles/candleCherryBlossom.webp",
       weightG: 80,
     },
     {
@@ -82,7 +82,7 @@ export class ProductService {
       fragrance: "Floral, Fresca, Adocicada, Herbal",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 35.90,
-      imagePlaceholder: "assets/Candle-Lavanda-2.webp",
+      imagePlaceholder: "assets/candles/candleLavander2.webp",
       weightG: 80,
     },
     {
@@ -92,7 +92,7 @@ export class ProductService {
       fragrance: "Proteção, Energia, Peônia, Pavio de Madeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 46.90,
-      imagePlaceholder: "assets/Candle-Evil-Eye.webp",
+      imagePlaceholder: "assets/candles/candleEvilEye.webp",
       weightG: 80,
     },
     {
@@ -102,7 +102,7 @@ export class ProductService {
       fragrance: "Café, Doce",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 41.50,
-      imagePlaceholder: "assets/Candle-Coffee.webp",
+      imagePlaceholder: "assets/candles/candleCoffee.webp",
       weightG: 200,
     },
     {
@@ -112,7 +112,7 @@ export class ProductService {
       fragrance: "Chocolate, Doce, Coco",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 59.90,
-      imagePlaceholder: "assets/Candle-Chocolat.webp",
+      imagePlaceholder: "assets/candles/candleChocolat.webp",
       weightG: 200,
     },
     {
@@ -122,7 +122,7 @@ export class ProductService {
       fragrance: "Chocolate, Doce, Coco, Café Expresso",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 49.90,
-      imagePlaceholder: "assets/Candle-Chocolat-2.webp",
+      imagePlaceholder: "assets/candles/candleChocolat2.webp",
       weightG: 100,
     },
     {
@@ -132,7 +132,7 @@ export class ProductService {
       fragrance: "Sweet Floral",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 69.80,
-      imagePlaceholder: "assets/Candle-Fe.webp",
+      imagePlaceholder: "assets/candles/candleBlueOcean.webp",
       weightG: 100,
     },
     {
@@ -142,7 +142,7 @@ export class ProductService {
       fragrance: "Lavanda, Calmaria",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 39.90,
-      imagePlaceholder: "assets/Candle-NSA-NSPC.webp",
+      imagePlaceholder: "assets/candles/candleNSANSPC.webp",
       weightG: 100,
     },
     {
@@ -152,7 +152,7 @@ export class ProductService {
       fragrance: "Doce, Vibrante",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 62.90,
-      imagePlaceholder: "assets/Dif.webp",
+      imagePlaceholder: "assets/diffusors/diffuser.webp",
       volumML: 10,
     },
     {
@@ -162,7 +162,7 @@ export class ProductService {
       fragrance: "Floral, Sofisticação",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 62.90,
-      imagePlaceholder: "assets/Dif.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 10,
     },
     {
@@ -172,7 +172,7 @@ export class ProductService {
       fragrance: "Leveza, Elegância",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 62.90,
-      imagePlaceholder: "assets/Dif.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 10,
     },
     {
@@ -182,7 +182,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 15.00,
-      imagePlaceholder: "assets/Dif-Car.webp",
+      imagePlaceholder: "assets/diffusors/diffuserCar.webp",
       volumML: 8,
     },
     {
@@ -192,7 +192,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 42.90,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 250,
     },
     {
@@ -202,7 +202,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 37.90,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 250,
     },
     {
@@ -212,7 +212,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 25.00,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 30,
     },
     {
@@ -222,7 +222,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 20.00,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 25,
     },
     {
@@ -232,7 +232,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 35.90,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 150,
     },
     {
@@ -242,7 +242,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 39.90,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 150,
     },
     {
@@ -252,7 +252,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 41.90,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 300,
     },
     {
@@ -262,7 +262,7 @@ export class ProductService {
       fragrance: "Bambu, Flor de Cerejeira",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 35.00,
-      imagePlaceholder: "assets/Dif-Kit.webp",
+      imagePlaceholder: "assets/homeSprays/KitDiffusorHomeSpray.webp",
       volumML: 250,
     },
     {
@@ -272,7 +272,7 @@ export class ProductService {
       fragrance: "Frescor, Leveza",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 59.90,
-      imagePlaceholder: "assets/Candle-Massage.webp",
+      imagePlaceholder: "assets/candles/candleMassage.webp",
       weightG: 250,
     },
     {
@@ -282,7 +282,7 @@ export class ProductService {
       fragrance: "Sofisticação",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 59.90,
-      imagePlaceholder: "assets/Candle-Massage.webp",
+      imagePlaceholder: "assets/candles/candleMassage.webp",
       weightG: 10,
     },
     {
@@ -292,7 +292,7 @@ export class ProductService {
       fragrance: "Aconchego, Doce",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 59.90,
-      imagePlaceholder: "assets/Candle-Massage.webp",
+      imagePlaceholder: "assets/candles/candleMassage.webp",
       weightG: 10,
     },
     {
@@ -302,7 +302,7 @@ export class ProductService {
       fragrance: "Comfort Baby",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 51.90,
-      imagePlaceholder: "assets/Candle-Baby.webp",
+      imagePlaceholder: "assets/candles/candleRevelation.webp",
       weightG: 200,
     },
     {
@@ -312,7 +312,7 @@ export class ProductService {
       fragrance: "Cera de Coco",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 20.00,
-      imagePlaceholder: "assets/Candle-Beer.webp",
+      imagePlaceholder: "assets/candles/candleBeer.webp",
       weightG: 150,
     },
     {
@@ -322,7 +322,7 @@ export class ProductService {
       fragrance: "Escolha do Cliente",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 45.00,
-      imagePlaceholder: "assets/Candle-Three.webp",
+      imagePlaceholder: "assets/candles/candleThree.webp",
       weightG: 90,
     },
     {
@@ -332,7 +332,7 @@ export class ProductService {
       fragrance: "Sweet Floral",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 70.00,
-      imagePlaceholder: "assets/Candle-Bridgerton.webp",
+      imagePlaceholder: "assets/candles/candleBridgerton.webp",
       weightG: 80,
     },
     {
@@ -342,7 +342,7 @@ export class ProductService {
       fragrance: "Fresco, Marinho, Revigorante",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 39.90,
-      imagePlaceholder: "assets/Candle-Blue-Ocean.webp",
+      imagePlaceholder: "assets/candles/candleBlueOcean.webp",
       weightG: 100,
     },
     {
@@ -352,8 +352,68 @@ export class ProductService {
       fragrance: "English Pear",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 69.90,
-      imagePlaceholder: "assets/Candle-Secret-Bosq.webp",
+      imagePlaceholder: "assets/candles/candleSecretForest.webp",
       weightG: 260,
+    },
+    {
+      id: 34,
+      name: "Coleção de Natal: Vela Decorativa Anjo de Natal",
+      category: "vela",
+      fragrance: "Baunilha",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      price: 35.00,
+      imagePlaceholder: "assets/candles/christmas/candleChristmasAngel.webp",
+      weightG: 80,
+    },
+    {
+      id: 35,
+      name: "Coleção de Natal: Bola de Natal Capadócia",
+      category: "vela",
+      fragrance: "Baunilha",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      price: 25.90,
+      imagePlaceholder: "assets/candles/christmas/candleChristmasBall.webp",
+      weightG: 40,
+    },
+    {
+      id: 36,
+      name: "Coleção de Natal: Latinhas Natalinas Charmosas",
+      category: "vela",
+      fragrance: "Baunilha",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      price: 29.90,
+      imagePlaceholder: "assets/candles/christmas/candleChristmasCan.webp",
+      weightG: 40,
+    },
+    {
+      id: 37,
+      name: "Coleção de Natal: Duo Velas Natalinas",
+      category: "vela",
+      fragrance: "Baunilha",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      price: 30.00,
+      imagePlaceholder: "assets/candles/christmas/candleDuoChristmas.webp",
+      weightG: 30,
+    },
+    {
+      id: 38,
+      name: "Coleção de Natal: Mini Lata (R$ 12.90 Acima de 10 Unidades)",
+      category: "vela",
+      fragrance: "Baunilha",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      price: 14.90,
+      imagePlaceholder: "assets/candles/christmas/candleMiniCan.webp",
+      weightG: 20,
+    },
+    {
+      id: 39,
+      name: "Coleção de Natal: Mini Lata Cartão Postal Vintage (R$ 12,90 Acima de 10 Unidades)",
+      category: "vela",
+      fragrance: "Baunilha",
+      description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
+      price: 14.90,
+      imagePlaceholder: "assets/candles/christmas/candlePostcard.webp",
+      weightG: 20,
     }
   ];
 

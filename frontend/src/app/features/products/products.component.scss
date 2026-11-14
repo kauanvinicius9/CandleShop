@@ -44,6 +44,27 @@
   color: $color-silver;
 }
 
+.new {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 30px;
+  background: $color-white;
+  box-shadow: $shadow-soft;
+  padding: 13px 20px;
+  border-radius: $radius-sm;
+
+  &__title {
+    color: $color-blue-500;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__subtitle {
+    color: $color-silver;
+  }
+}
+
 @media (max-width: 992px) {
   .products {
     padding: 40px 0 60px;
