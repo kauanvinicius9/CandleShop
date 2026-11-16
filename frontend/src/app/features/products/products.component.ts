@@ -21,7 +21,7 @@ export class ProductsComponent implements OnInit {
     const products = this.allProducts();
 
     if (filter === "todos") return this.allProducts();
-    if (filter === "vela" || filter === "home-spray" || filter === "difusor") {
+    if (filter === "vela" || filter === "home-spray" || filter === "difusor" || filter === "kit") {
       return products.filter((p) => p.category === filter);
     }
 
