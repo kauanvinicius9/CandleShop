@@ -39,6 +39,7 @@ export class ProductsComponent implements OnInit {
     { value: "lembrancas", label: "Coleção Lembranças" },
     { value: "fe", label: "Coleção Fé" },
     { value: "home-spray", label: "Home Sprays" },
+    { value: "kit", label: "Kits" },
     { value: "difusor", label: "Difusores" }
   ];
 
