@@ -2,7 +2,7 @@ import { Routes } from "@angular/router";
 import { HomeComponent } from "./features/home/home.component";
 import { ProductsComponent } from "./features/products/products.component";
 import { ContactComponent } from "./features/contact/contact.component";
-import { AboutProductsComponent } from "./features/about/about.component";
+import { AboutProductsComponent } from "./features/about/about-products.component";
 import { NotFoundComponent } from "./features/not-found/not-found.component";
 import { MainLayoutComponent } from "./main-layout.component";
 

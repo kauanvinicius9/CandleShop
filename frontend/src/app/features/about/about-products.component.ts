@@ -5,7 +5,7 @@ import { RouterLink } from "@angular/router";
   selector: "app-about-products",
   standalone: true,
   imports: [RouterLink],
-  templateUrl: "./about.component.html",
-  styleUrl: "./about.component.scss"
+  templateUrl: "./about-products.component.html",
+  styleUrl: "./about-products.component.scss"
 })
 export class AboutProductsComponent {}
