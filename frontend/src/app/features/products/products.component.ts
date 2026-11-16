@@ -30,7 +30,7 @@ export class ProductsComponent implements OnInit {
 
   readonly filters: { value: FilterType; label: string }[] = [
     { value: "todos", label: "Todos os Produtos" },
-    { value: "velas", labels: "Todas as Velas" },
+    { value: "vela", labels: "Todas as Velas" },
     { value: "natal", label: "Coleção Natal 2026" },
     { value: "sugar-berry", label: "Coleção Sugar-Berry" },
     { value: "gourmet", label: "Coleção Gourmet" },
