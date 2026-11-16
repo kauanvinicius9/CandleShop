@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1,
+    "collection": "entretampos",
+    "name": "Coleção Entretampos: Lavanda",
+    "category": "vela",
+    "fragrance": "Floral, Fresca, Adocicada, Herbal",
+    "description": "",
+    "price": 31.9,
+    "imagePlaceholder": "assets/candles/candleLavander.webp",
+    "weightG": 90
+  },
+  {
+    "id": 2,
+    "collection": "entretampos",
+    "name": "Coleção Entretampos: Pistache",
+    "category": "vela",
+    "fragrance": "Cremosidade, Baunilha, Gourmand Oriental",
+    "description": "",
+    "price": 31.9,
+    "imagePlaceholder": "assets/candles/candlePistachio.webp",
+    "weightG": 90
+  },
+  {
+    "id": 3,
+    "collection": "entretampos",
+    "name": "Coleção Entretampos: Chá Branco",
+    "category": "vela",
+    "fragrance": "Fresco, Elegante, Jasmin, Flor de Lótus",
+    "description": "",
+    "price": 31.9,
+    "imagePlaceholder": "assets/candles/candleWhiteTea.webp",
+    "weightG": 90
+  },
+  {
+    "id": 4,
+    "collection": "sugar-berry",
+    "name": "Coleção Sugar Berry: Copo Vidro Quadrado",
+    "category": "vela",
+    "fragrance": "Morango, Doce, Fruta",
+    "description": "",
+    "price": 46.9,
+    "imagePlaceholder": "assets/candles/candleStrawberry1.webp",
+    "weightG": 100
+  },
+  {
+    "id": 5,
+    "collection": "sugar-berry",
+    "name": "Coleção Sugar Berry: Pote Patê",
+    "category": "vela",
+    "fragrance": "Morango, Doce, Fruta",
+    "description": "",
+    "price": 36.9,
+    "imagePlaceholder": "assets/candles/candleStrawBerry2.webp",
+    "weightG": 100
+  },
+  {
+    "id": 6,
+    "collection": "sugar-berry",
+    "name": "Coleção Sugar Berry: Imponente na Taça (18cm)",
+    "category": "vela",
+    "fragrance": "Morango, Doce, Fruta",
+    "description": "",
+    "price": 69.9,
+    "imagePlaceholder": "assets/candles/candleStrawBerry3.webp",
+    "weightG": 300
+  },
+  {
+    "id": 7,
+    "collection": "sugar-berry",
+    "name": "Coleção Sugar Berry: Flor de Cerejeira",
+    "category": "vela",
+    "fragrance": "Cereja",
+    "description": "",
+    "price": 35.9,
+    "imagePlaceholder": "assets/candles/candleCherryBlossom.webp",
+    "weightG": 80
+  },
+  {
+    "id": 8,
+    "collection": "sugar-berry",
+    "name": "Coleção Sugar Berry: Lavanda",
+    "category": "vela",
+    "fragrance": "Floral, Fresca, Adocicada, Herbal",
+    "description": "",
+    "price": 35.9,
+    "imagePlaceholder": "assets/candles/candleLavander2.webp",
+    "weightG": 80
+  },
+  {
+    "id": 9,
+    "collection": "sugar-berry",
+    "name": "Coleção Sugar Berry: Olho Grego",
+    "category": "vela",
+    "fragrance": "Proteção, Energia, Peônia, Pavio de Madeira",
+    "description": "",
+    "price": 46.9,
+    "imagePlaceholder": "assets/candles/candleEvilEye.webp",
+    "weightG": 80
+  },
+  {
+    "id": 10,
+    "collection": "gourmet",
+    "name": "Coleção Gourmet: Café (Caneca Esmalta)",
+    "category": "vela",
+    "fragrance": "Café, Doce",
+    "description": "",
+    "price": 41.5,
+    "imagePlaceholder": "assets/candles/candleCoffee.webp",
+    "weightG": 200
+  },
+  {
+    "id": 11,
+    "collection": "gourmet",
+    "name": "Coleção Gourmet: Chocolate Belga",
+    "category": "vela",
+    "fragrance": "Chocolate, Doce, Coco",
+    "description": "",
+    "price": 59.9,
+    "imagePlaceholder": "assets/candles/candleChocolat.webp",
+    "weightG": 200
+  },
+  {
+    "id": 12,
+    "collection": "gourmet",
+    "name": "Coleção Gourmet: Chocolate Belga (Taça de Vidro)",
+    "category": "vela",
+    "fragrance": "Chocolate, Doce, Coco, Café Expresso",
+    "description": "",
+    "price": 49.9,
+    "imagePlaceholder": "assets/candles/candleChocolat2.webp",
+    "weightG": 100
+  },
+  {
+    "id": 13,
+    "collection": "fe",
+    "name": "Coleção Fé: Nossa Senhora Aparecida / Nossa Senhora Perpétuo Socorro",
+    "category": "vela",
+    "fragrance": "Lavanda, Calmaria",
+    "description": "",
+    "price": 39.9,
+    "imagePlaceholder": "assets/candles/candleNSANSPC.webp",
+    "weightG": 100
+  },
+  {
+    "id": 14,
+    "name": "Difusor Aromático: Morango (Consulte Cor da Cerâmica)",
+    "category": "difusor",
+    "fragrance": "Doce, Vibrante",
+    "description": "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção,além do prazo de entrega.",
+    "price": 62.9,
+    "imagePlaceholder": "assets/diffusors/diffuser.webp",
+    "volumML": 10
+  },
+  {
+    "id": 15,
+    "name": "Difusor Aromático: Jasmin (Consulte Cor da Cerâmica)",
+    "category": "difusor",
+    "fragrance": "Floral, Sofisticação",
+    "description": "",
+    "price": 62.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 10
+  },
+  {
+    "id": 16,
+    "name": "Difusor Aromático: Chá Branco (Consulte Cor da Cerâmica)",
+    "category": "difusor",
+    "fragrance": "Leveza, Elegância",
+    "description": "",
+    "price": 62.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 10
+  },
+  {
+    "id": 17,
+    "name": "Aromatizador Veicular em Vidro (Tampa de Madeira)",
+    "category": "difusor",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 15.0,
+    "imagePlaceholder": "assets/diffusors/diffuserCar.webp",
+    "volumML": 8
+  },
+  {
+    "id": 18,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 42.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 250
+  },
+  {
+    "id": 19,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Pet",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 37.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 250
+  },
+  {
+    "id": 20,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 25.0,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 30
+  },
+  {
+    "id": 21,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro Para Cômodos",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 20.0,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 25
+  },
+  {
+    "id": 22,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Vidro - Bico do Spray",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 35.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 150
+  },
+  {
+    "id": 23,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Vidro - Bico do Gatilho",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 39.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 150
+  },
+  {
+    "id": 24,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Pet - Bico do Spray",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 41.9,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 300
+  },
+  {
+    "id": 25,
+    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Pet",
+    "category": "kit",
+    "fragrance": "Bambu, Flor de Cerejeira",
+    "description": "",
+    "price": 35.0,
+    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "volumML": 250
+  },
+  {
+    "id": 26,
+    "collection": "especiais",
+    "name": "Vela para Massagem: Alecrim e Chá Branco",
+    "category": "vela",
+    "fragrance": "Frescor, Leveza",
+    "description": "",
+    "price": 59.9,
+    "imagePlaceholder": "assets/candles/candleMassage.webp",
+    "weightG": 250
+  },
+  {
+    "id": 27,
+    "collection": "especiais",
+    "name": "Vela para Massagem: Flor de Figo",
+    "category": "vela",
+    "fragrance": "Sofisticação",
+    "description": "",
+    "price": 59.9,
+    "imagePlaceholder": "assets/candles/candleMassage.webp",
+    "weightG": 10
+  },
+  {
+    "id": 28,
+    "collection": "especiais",
+    "name": "Vela para Massagem: Baunilha",
+    "category": "vela",
+    "fragrance": "Aconchego, Doce",
+    "description": "",
+    "price": 59.9,
+    "imagePlaceholder": "assets/candles/candleMassage.webp",
+    "weightG": 10
+  },
+  {
+    "id": 29,
+    "collection": "lembrancas",
+    "name": "Coleção Lembranças e Eventos: Chá Revelação",
+    "category": "vela",
+    "fragrance": "Comfort Baby",
+    "description": "",
+    "price": 51.9,
+    "imagePlaceholder": "assets/candles/candleRevelation.webp",
+    "weightG": 200
+  },
+  {
+    "id": 30,
+    "collection": "lembrancas",
+    "name": "Coleção Lembranças e Eventos: Cerveja (Copo Americano e Rótulo Personalizável) - Consulte Valores",
+    "category": "vela",
+    "fragrance": "Cera de Coco",
+    "description": "",
+    "price": 20.0,
+    "imagePlaceholder": "assets/candles/candleBeer.webp",
+    "weightG": 150
+  },
+  {
+    "id": 31,
+    "collection": "lembrancas",
+    "name": "Coleção Lembranças e Eventos: Trio de Velas (Vidro Patê com Fósforos) - Rótulo, Fita e Aroma Ajustados ao Tema de Sua Festa, Valor Negociável",
+    "category": "vela",
+    "fragrance": "Escolha do Cliente",
+    "description": "",
+    "price": 45.0,
+    "imagePlaceholder": "assets/candles/candleThree.webp",
+    "weightG": 90
+  },
+  {
+    "id": 32,
+    "collection": "especiais",
+    "name": "Edição Especial: Vela Bridgerton",
+    "category": "vela",
+    "fragrance": "Sweet Floral",
+    "description": "",
+    "price": 70.0,
+    "imagePlaceholder": "assets/candles/candleBridgerton.webp",
+    "weightG": 80
+  },
+  {
+    "id": 33,
+    "collection": "especiais",
+    "name": "Edição Especial: Vela Iceberg - Blue Ocean (Efeito de Bolhas e Textura Dupla)",
+    "category": "vela",
+    "fragrance": "Fresco, Marinho, Revigorante",
+    "description": "",
+    "price": 39.9,
+    "imagePlaceholder": "assets/candles/candleBlueOcean.webp",
+    "weightG": 100
+  },
+  {
+    "id": 34,
+    "name": "Bosque Secreto",
+    "category": "vela",
+    "fragrance": "English Pear",
+    "description": "",
+    "price": 69.9,
+    "imagePlaceholder": "assets/candles/candleSecretForest.webp",
+    "weightG": 260
+  },
+  {
+    "id": 35,
+    "collection": "natal",
+    "name": "Coleção de Natal: Vela Decorativa Anjo de Natal",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 35.0,
+    "imagePlaceholder": "assets/candles/christmas/candleChristmasAngel.webp",
+    "weightG": 80
+  },
+  {
+    "id": 36,
+    "collection": "natal",
+    "name": "Coleção de Natal: Bola de Natal Capadócia",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 25.9,
+    "imagePlaceholder": "assets/candles/christmas/candleChristmasBall.webp",
+    "weightG": 40
+  },
+  {
+    "id": 37,
+    "collection": "natal",
+    "name": "Coleção de Natal: Latinhas Natalinas Charmosas",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 29.9,
+    "imagePlaceholder": "assets/candles/christmas/candleChristmasCan.webp",
+    "weightG": 40
+  },
+  {
+    "id": 38,
+    "collection": "natal",
+    "name": "Coleção de Natal: Duo Velas Natalinas",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 31.9,
+    "imagePlaceholder": "assets/candles/christmas/candleDuoChristmas.webp",
+    "weightG": 30
+  },
+  {
+    "id": 39,
+    "collection": "natal",
+    "name": "Coleção de Natal: Mini Lata",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 14.9,
+    "imagePlaceholder": "assets/candles/christmas/candleMiniCan.webp",
+    "weightG": 20,
+    "bulkPricing": {
+      "minQuantity": 10,
+      "unitPrice": 12.9
+    }
+  },
+  {
+    "id": 40,
+    "collection": "natal",
+    "name": "Coleção de Natal: Mini Lata Cartão Postal Vintage",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 14.9,
+    "imagePlaceholder": "assets/candles/christmas/candlePostcard.webp",
+    "weightG": 20,
+    "bulkPricing": {
+      "minQuantity": 10,
+      "unitPrice": 12.9
+    }
+  },
+  {
+    "id": 41,
+    "collection": "natal",
+    "name": "Coleção de Natal: Vela Luminária de Natal",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 65.0,
+    "imagePlaceholder": "assets/candles/christmas/candleLuminary.webp",
+    "weightG": 200
+  },
+  {
+    "id": 42,
+    "collection": "natal",
+    "name": "Coleção de Natal: Kit Sagrada Família (1 Vela Formato Sagrada Família, 1 Copo de Vidro Rótulo 'Feliz Natal')",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 35.9,
+    "imagePlaceholder": "assets/candles/christmas/candleSagredFamily.webp",
+    "weightG": 20
+  },
+  {
+    "id": 43,
+    "collection": "natal",
+    "name": "Coleção de Natal: Kit Encanto Natalino (3 Velas 40g Cada, 2 Pinheiros e 1 Floco de Neve)",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 41.0,
+    "imagePlaceholder": "assets/candles/christmas/candleThree.webp",
+    "weightG": 40
+  },
+  {
+    "id": 44,
+    "collection": "natal",
+    "name": "Coleção de Natal: Mini Bubble",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 25.0,
+    "imagePlaceholder": "assets/candles/christmas/candleBubble.webp",
+    "weightG": 40,
+    "bulkPricing": {
+      "minQuantity": 10,
+      "unitPrice": 20.0
+    }
+  },
+  {
+    "id": 45,
+    "collection": "natal",
+    "name": "Coleção de Natal: Lembrancinha Vela de Anjo",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 18.0,
+    "imagePlaceholder": "assets/candles/christmas/candleAngel2.webp",
+    "weightG": 40
+  },
+  {
+    "id": 46,
+    "collection": "natal",
+    "name": "Coleção de Natal: Kit Especial de Natal (Vela Bastão 'Feliz Natal' 40g + Mini Vela Latinha 20g)",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 29.0,
+    "imagePlaceholder": "assets/candles/christmas/candleSpecialKit.webp",
+    "weightG": 60
+  },
+  {
+    "id": 47,
+    "collection": "natal",
+    "name": "Coleção de Natal: Vela em Peça de Cerâmica (O Pote Pode Ganhar Nova Utilidade na Decoração)",
+    "category": "vela",
+    "fragrance": "Edição Limitada de Natal",
+    "description": "",
+    "price": 99.0,
+    "imagePlaceholder": "assets/candles/christmas/candleCeramic.webp",
+    "weightG": 150
+  }
+]
