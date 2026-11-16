@@ -23,6 +23,6 @@ export const routes: Routes = [
   {
     path: "**",
     component: NotFoundComponent,
-    title: "Página Não Encontrada"
+    title: "404 | Página Não Encontrada"
   }
 ]
