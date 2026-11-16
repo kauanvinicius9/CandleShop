@@ -15,7 +15,7 @@ dialog:not([open]) {
     z-index: 99999 !important;
 
     &::backdrop {
-        background-color: rgba(0, 0, 0, 0.652);
+        background-color: rgba(97, 96, 96, 0.652);
     }
 }
 
