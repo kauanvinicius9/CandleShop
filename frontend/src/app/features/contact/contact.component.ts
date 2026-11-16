@@ -51,8 +51,13 @@ export class ContactComponent {
     this.showConfirmModal.set(true);
   }
 
-  handleConfirm(): void {this.showConfirmModal.set(false); this.submit(); }
-  handleCancel(): void { this.showConfirmModal.set(false); }
+  handleConfirm(): void {
+    this.showConfirmModal.set(false); this.submit(); 
+  }
+
+  handleCancel(): void { 
+    this.showConfirmModal.set(false); 
+  }
 
   submit(): void {
     this.submitted.set(false);
@@ -64,7 +69,10 @@ export class ContactComponent {
     }
 
     const rawData = this.contactForm.getRawValue();
-    const data = { name: rawData.name?.trim(), email: rawData.email?.trim(), message: rawData.message?.trim()};
+    const data = { 
+      name: rawData.name?.trim(), 
+      email: rawData.email?.trim(), 
+      message: rawData.message?.trim()};
 
     this.sending.set(true);
     this.emailService.sendEmail(data).subscribe({

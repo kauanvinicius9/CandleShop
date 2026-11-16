@@ -17,11 +17,21 @@ export class ConfirmationModalComponent {
 
     constructor() {
         effect(() => {
-            if (this.isOpen()) { this.dialogRef?.nativeElement.showModal() } 
-            else { this.dialogRef?.nativeElement.close() }
+            if (this.isOpen()) { 
+                this.dialogRef?.nativeElement.showModal() 
+            } 
+            
+            else { 
+                this.dialogRef?.nativeElement.close() 
+            }
         });
     }
 
-    onConfirm(): void { this.confirmed.emit(); }
-    onCancel(): void { this.cancelled.emit(); }
+    onConfirm(): void { 
+        this.confirmed.emit(); 
+    }
+
+    onCancel(): void { 
+        this.cancelled.emit(); 
+    }
 }

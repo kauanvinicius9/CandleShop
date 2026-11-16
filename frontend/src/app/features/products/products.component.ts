@@ -1,9 +1,9 @@
 import { Component, OnInit, computed, signal } from "@angular/core";
-import { Product, ProductCategory } from "../../core/models/product.model";
+import { Product, ProductCategory, ProductCollection } from "../../core/models/product.model";
 import { ProductService } from "../../core/services/product.service";
 import { ProductCardComponent } from "../product-card/product-card.component";
 
-type CategoryFilter = ProductCategory | "todos";
+type FilterType = ProductCategory | ProductCollection | "todos";
 
 @Component({
   selector: "app-products",
@@ -14,23 +14,41 @@ type CategoryFilter = ProductCategory | "todos";
 })
 export class ProductsComponent implements OnInit {
   readonly allProducts = signal<Product[]>([]);
-  readonly activeFilter = signal<CategoryFilter>("todos");
-  readonly filteredProducts = computed(() => {
+  readonly activeFilter = signal<FilterType>("todos");
 
+  readonly filteredProducts = computed(() => {
     const filter = this.activeFilter();
-    if (filter === "todos") { return this.allProducts() }
-    return this.allProducts().filter((product) => product.category === filter);
+    const products = this.allProducts();
+
+    if (filter === "todos") return this.allProducts();
+    if (filter === "vela" || filter === "home-spray" || filter === "difusor") {
+      return products.filter((p) => p.category === filter);
+    }
+
+    return products.filter((p) => p.collection === filter)
   });
 
-  readonly filters: { value: CategoryFilter; label: string }[] = [
+  readonly filters: { value: FilterType; label: string }[] = [
     { value: "todos", label: "Todos" },
-    { value: "vela", label: "Velas" },
+    { value: "vela", label: "Todas as Velas" },
+    { value: "natal", label: "Coleção Natal 2026" },
+    { value: "sugar-berry", label: "Coleção Sugar-Berry" },
+    { value: "gourmet", label: "Coleção Gourmet" },
+    { value: "entretampos", label: "Coleção Entretampos" },
+    { value: "especiais", label: "Coleção Especiais" },
+    { value: "lembrancas", label: "Coleção Lembranças" },
+    { value: "fe", label: "Coleção Fé" },
     { value: "home-spray", label: "Home Sprays" },
     { value: "difusor", label: "Difusores" }
   ];
 
   constructor(private readonly productService: ProductService) {}
 
-  ngOnInit(): void { this.productService.getAll().subscribe((products) => this.allProducts.set(products)); }
-  setFilter(filter: CategoryFilter): void { this.activeFilter.set(filter); }
+  ngOnInit(): void { 
+    this.productService.getAll().subscribe((products) => this.allProducts.set(products)); 
+  }
+
+  setFilter(filter: FilterType): void { 
+    this.activeFilter.set(filter); 
+  }
 }

@@ -2,11 +2,14 @@ import { Injectable } from "@angular/core";
 import { Observable, of } from "rxjs";
 import { Product } from "../models/product.model";
 
+// 'Collection' é opcional. Aplica-se apenas em velas. Não são em todas elas, apenas em coleções.
+
 @Injectable({ providedIn: "root" })
 export class ProductService {
   private readonly products: Product[] = [
     {
       id: 1,
+      collection: "entretampos",
       name: "Coleção Entretampos: Lavanda",
       category: "vela",
       fragrance: "Essência: Floral, Fresca, Adocicada, Herbal",
@@ -17,6 +20,7 @@ export class ProductService {
     },
     {
       id: 2,
+      collection: "entretampos",
       name: "Coleção Entretampos: Pistache",
       category: "vela",
       fragrance: "Essência: Cremosidade, Baunilha, Gourmand Oriental",
@@ -27,6 +31,7 @@ export class ProductService {
     },
     {
       id: 3,
+      collection: "entretampos",
       name: "Coleção Entretampos: Chá Branco",
       category: "vela",
       fragrance: "Essência: Fresco, Elegante, Jasmin, Flor de Lótus",
@@ -37,6 +42,7 @@ export class ProductService {
     },
     {
       id: 4,
+      collection: "sugar-berry",
       name: "Coleção Sugar Berry: Copo Vidro Quadrado",
       category: "vela",
       fragrance: "Essência: Morango, Doce, Fruta",
@@ -47,6 +53,7 @@ export class ProductService {
     },
     {
       id: 5,
+      collection: "sugar-berry",
       name: "Coleção Sugar Berry: Pote Patê",
       category: "vela",
       fragrance: "Essência: Morango, Doce, Fruta",
@@ -57,6 +64,7 @@ export class ProductService {
     },
     {
       id: 6,
+      collection: "sugar-berry",
       name: "Coleção Sugar Berry: Imponente na Taça (18cm)",
       category: "vela",
       fragrance: "Essência: Morango, Doce, Fruta",
@@ -67,6 +75,7 @@ export class ProductService {
     },
     {
       id: 7,
+      collection: "sugar-berry",
       name: "Coleção Sugar Berry: Flor de Cerejeira",
       category: "vela",
       fragrance: "Essência: Cereja",
@@ -77,6 +86,7 @@ export class ProductService {
     },
     {
       id: 8,
+      collection:  "sugar-berry",
       name: "Coleção Sugar Berry: Lavanda",
       category: "vela",
       fragrance: "Essência: Floral, Fresca, Adocicada, Herbal",
@@ -87,6 +97,7 @@ export class ProductService {
     },
     {
       id: 9,
+      collection: "sugar-berry",
       name: "Coleção Sugar Berry: Olho Grego",
       category: "vela",
       fragrance: "Essência: Proteção, Energia, Peônia, Pavio de Madeira",
@@ -97,6 +108,7 @@ export class ProductService {
     },
     {
       id: 10,
+      collection: "gourmet",
       name: "Coleção Gourmet: Café (Caneca Esmalta)",
       category: "vela",
       fragrance: "Essência: Café, Doce",
@@ -107,6 +119,7 @@ export class ProductService {
     },
     {
       id: 11,
+      collection: "gourmet",
       name: "Coleção Gourmet: Chocolate Belga",
       category: "vela",
       fragrance: "Essência: Chocolate, Doce, Coco",
@@ -117,6 +130,7 @@ export class ProductService {
     },
     {
       id: 12,
+      collection: "gourmet",
       name: "Coleção Gourmet: Chocolate Belga (Taça de Vidro)",
       category: "vela",
       fragrance: "Essência: Chocolate, Doce, Coco, Café Expresso",
@@ -127,6 +141,7 @@ export class ProductService {
     },
     {
       id: 13,
+      collection: "fe",
       name: "Coleção Fé: Nossa Senhora Aparecida / Nossa Senhora Perpétuo Socorro",
       category: "vela",
       fragrance: "Essência: Lavanda, Calmaria",
@@ -257,6 +272,7 @@ export class ProductService {
     },
     {
       id: 26,
+      collection: "especiais",
       name: "Vela para Massagem: Alecrim e Chá Branco",
       category: "vela",
       fragrance: "Essência: Frescor, Leveza",
@@ -267,6 +283,7 @@ export class ProductService {
     },
     {
       id: 27,
+      collection: "especiais",
       name: "Vela para Massagem: Flor de Figo",
       category: "vela",
       fragrance: "Essência: Sofisticação",
@@ -277,6 +294,7 @@ export class ProductService {
     },
     {
       id: 28,
+      collection: "especiais",
       name: "Vela para Massagem: Baunilha",
       category: "vela",
       fragrance: "Essência: Aconchego, Doce",
@@ -287,6 +305,7 @@ export class ProductService {
     },
     {
       id: 29,
+      collection: "lembrancas",
       name: "Coleção Lembranças e Eventos: Chá Revelação",
       category: "vela",
       fragrance: "Essência: Comfort Baby",
@@ -297,6 +316,7 @@ export class ProductService {
     },
     {
       id: 30,
+      collection: "lembrancas",
       name: "Coleção Lembranças e Eventos: Cerveja (Copo Americano e Rótulo Personalizável) - Consulte Valores",
       category: "vela",
       fragrance: "Essência: Cera de Coco",
@@ -307,6 +327,7 @@ export class ProductService {
     },
     {
       id: 31,
+      collection: "lembrancas",
       name: "Coleção Lembranças e Eventos: Trio de Velas (Vidro Patê com Fósforos) - Rótulo, Fita e Aroma Ajustados ao Tema de Sua Festa, Valor Negociável",
       category: "vela",
       fragrance: "Essência: Escolha do Cliente",
@@ -317,6 +338,7 @@ export class ProductService {
     },
     {
       id: 32,
+      collection: "especiais",
       name: "Edição Especial: Vela Bridgerton",
       category: "vela",
       fragrance: "Essência: Sweet Floral",
@@ -327,6 +349,7 @@ export class ProductService {
     },
     {
       id: 33,
+      collection: "especiais",
       name: "Edição Especial: Vela Iceberg - Blue Ocean (Efeito de Bolhas e Textura Dupla)",
       category: "vela",
       fragrance: "Essência: Fresco, Marinho, Revigorante",
@@ -347,6 +370,7 @@ export class ProductService {
     },
     {
       id: 35,
+      collection: "natal",
       name: "Coleção de Natal: Vela Decorativa Anjo de Natal",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -357,6 +381,7 @@ export class ProductService {
     },
     {
       id: 36,
+      collection: "natal",
       name: "Coleção de Natal: Bola de Natal Capadócia",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -367,6 +392,7 @@ export class ProductService {
     },
     {
       id: 37,
+      collection: "natal",
       name: "Coleção de Natal: Latinhas Natalinas Charmosas",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -377,6 +403,7 @@ export class ProductService {
     },
     {
       id: 38,
+      collection: "natal",
       name: "Coleção de Natal: Duo Velas Natalinas",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -387,6 +414,7 @@ export class ProductService {
     },
     {
       id: 39,
+      collection: "natal",
       name: "Coleção de Natal: Mini Lata (R$ 12.90 Acima de 10 Unidades)",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -397,6 +425,7 @@ export class ProductService {
     },
     {
       id: 40,
+      collection: "natal",
       name: "Coleção de Natal: Mini Lata Cartão Postal Vintage (R$ 12,90 Acima de 10 Unidades)",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -407,6 +436,7 @@ export class ProductService {
     },
     {
       id: 41,
+      collection: "natal",
       name: "Coleção de Natal: Vela Luminária de Natal",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -417,6 +447,7 @@ export class ProductService {
     },
     {
       id: 42,
+      collection: "natal",
       name: "Coleção de Natal: Kit Sagrada Família (1 Vela Formato Sagrada Família, 1 Copo de Vidro Rótulo 'Feliz Natal')",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -427,6 +458,7 @@ export class ProductService {
     },
     {
       id: 43,
+      collection: "natal",
       name: "Coleção de Natal: Kit Encanto Natalino (3 Velas 40g Cada, 2 Pinheiros e 1 Floco de Neve)",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -437,6 +469,7 @@ export class ProductService {
     },
     {
       id: 44,
+      collection: "natal",
       name: "Coleção de Natal: Mini Bubble (R$ 20,00 Acima de 10 Unidades)",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -447,6 +480,7 @@ export class ProductService {
     },
     {
       id: 45,
+      collection: "natal",
       name: "Coleção de Natal: Lembrancinha Vela de Anjo",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -457,6 +491,7 @@ export class ProductService {
     },
     {
       id: 46,
+      collection: "natal",
       name: "Coleção de Natal: Kit Especial de Natal (Vela Bastão 'Feliz Natal' 40g + Mini Vela Latinha 20g)",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -467,6 +502,7 @@ export class ProductService {
     },
     {
       id: 47,
+      collection: "natal",
       name: "Coleção de Natal: Vela em Peça de Cerâmica (O Pote Pode Ganhar Nova Utilidade na Decoração)",
       category: "vela",
       fragrance: "Essência: Edição Limitada de Natal",
@@ -477,6 +513,10 @@ export class ProductService {
     }
   ];
 
-  getAll(): Observable<Product[]> { return of(this.products); }
-  getById(id: number): Observable<Product | undefined> { return of(this.products.find((product) => product.id === id)); }
+  getAll(): Observable<Product[]> { 
+    return of(this.products); 
+  }
+  getById(id: number): Observable<Product | undefined> { 
+    return of(this.products.find((product) => product.id === id)); 
+  }
 }

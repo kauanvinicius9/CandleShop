@@ -12,6 +12,11 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
 export class HeaderComponent {
   readonly isMenuOpen = signal<boolean>(false);
 
-  toggleMenu(): void { this.isMenuOpen.update(open => !open); }
-  closeMenu(): void { this.isMenuOpen.set(false); }
+  toggleMenu(): void { 
+    this.isMenuOpen.update(open => !open); 
+  }
+  
+  closeMenu(): void { 
+    this.isMenuOpen.set(false); 
+  }
 }
