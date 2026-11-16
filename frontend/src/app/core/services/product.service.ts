@@ -477,11 +477,6 @@ export class ProductService {
     }
   ];
 
-  getAll(): Observable<Product[]> {
-    return of(this.products);
-  }
-
-  getById(id: number): Observable<Product | undefined> {
-    return of(this.products.find((product) => product.id === id));
-  }
+  getAll(): Observable<Product[]> { return of(this.products); }
+  getById(id: number): Observable<Product | undefined> { return of(this.products.find((product) => product.id === id)); }
 }
