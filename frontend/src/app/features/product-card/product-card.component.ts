@@ -17,8 +17,11 @@ export class ProductCardComponent {
 
   get categoryLabel(): string {
     const labels: Record<string, string> = { 
-      vela: "Vela", "home-spray": "Home Spray", 
-      difusor: "Difusor" };
+      vela: "Vela", 
+      "home-spray": "Home Spray", 
+      kit: "Kit",
+      difusor: "Difusor" 
+    };
       
     return labels[this.product.category] ?? this.product.category;
   }
