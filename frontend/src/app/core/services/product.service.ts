@@ -472,7 +472,7 @@ export class ProductService {
       fragrance: "Essência: Edição Limitada de Natal",
       description: "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção, além do prazo de entrega.",
       price: 99.00,
-      imagePlaceholder: "assets/candles/christmas/candleSpecialKit.webp",
+      imagePlaceholder: "assets/candles/christmas/candleCeramic.webp",
       weightG: 150,
     }
   ];
