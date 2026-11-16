@@ -10,7 +10,7 @@
   transition: transform .2s ease, box-shadow .2s ease;
 
   &:hover {
-    transform: translateY(-3px)
+    transform: translateY(-3px);
   }
 
   &__image {
@@ -29,19 +29,20 @@
       border-radius: 8px;
       image-rendering: -webkit-optimize-contrast;
       image-rendering: high-quality;
-      filter: contrast(1.08) saturate(1.05)
+      filter: contrast(1.08) saturate(1.05);
     }
   }
 
   &__weight {
     color: $color-silver;
+    font-size: 0.85rem;
+    margin-top: 4px;
   }
 
   &__body {
     display: flex;
     flex: 1;
     flex-direction: column;
-
     padding: 18px;
   }
 
@@ -56,16 +57,39 @@
     min-height: 38px;
     color: $color-silver;
     font-size: .85rem;
-  }
-
-  &__price {
-    color: $color-blue-400;
-    font-size: 1.15rem;
-    font-weight: 600;
+    margin: 6px 0;
   }
 
   &__description {
     color: $color-silver;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+  }
+
+  &__price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 8px 0;
+  }
+
+  &__price {
+    color: $color-blue-500-2;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__bulk-badge {
+    font-size: 0.78rem;
+    color: $color-silver;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 3px 6px;
+    border-radius: 4px;
+    width: fit-content;
+
+    strong {
+      color: $color-black;
+    }
   }
 
   &__button {
@@ -73,11 +97,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 8px;
+    margin-top: auto;
     padding: 10px;
     border-radius: 7px;
     background: $color-blue-500;
     color: $color-white;
+    border: none;
+    cursor: pointer;
     transition: .3s ease;
 
     &:hover {
@@ -109,7 +135,7 @@
     }
 
     &__button {
-      padding: 18px;    
+      padding: 14px;    
     }
 
     &__name {
@@ -121,9 +147,8 @@
       font-size: .9rem;
     }
 
-    &__price,
-    &__weight {
-      font-size: 1.05rem;
+    &__price {
+      font-size: 1.25rem;
     }
   }
 }
@@ -149,7 +174,7 @@
     }
 
     &__price {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
 
     &__button {

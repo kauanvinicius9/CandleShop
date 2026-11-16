@@ -1,6 +1,11 @@
 export type ProductCategory = "vela" | "home-spray" | "difusor";
 export type ProductCollection = "entretampos" | "sugar-berry" | "gourmet" | "fe" | "lembrancas" | "especiais" | "natal";
 
+export interface BulkPricing {
+  minQuantity: number;
+  unitPrice: number;
+}
+
 export interface Product {
   id: number;
   name: string;
@@ -12,4 +17,5 @@ export interface Product {
   imagePlaceholder: string;
   weightG?: number;
   volumML?: number;
+  bulkPricing?: BulkPricing;
 }
