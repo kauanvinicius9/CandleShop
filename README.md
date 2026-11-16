@@ -13,10 +13,9 @@
 
 ### Frontend
 
-- **Framework:** Angular (v17+) with Server-Side Rendering (SSR) / Hydration enabled.
+- **Framework:** Angular (v17+).
 - **Language:** TypeScript, HTML5, SCSS.
 - **Routing:** Angular Router.
-- **Internal Web Server:** Nginx (for production in the frontend container).
 
 ### Infrastructure and Containers
 
