@@ -21,7 +21,7 @@
 ### Infrastructure and Containers
 
 - **Docker:** Creation of standardized images and environments.
-- **Docker Compose:** Environment orchestration (frontend and backend services).
+- **Docker Compose:** Environment orchestration (frontend services).
 
 ---
 
@@ -40,7 +40,7 @@
 1. Navigate to the frontend directory:
 
    ```bash
-   cd CandleShop-main/frontend
+   cd CandleShop/frontend
    ```
 
 2. Install dependencies:
@@ -61,10 +61,8 @@
 
 ### Execution via Docker Compose
 
-1. In the project root (`CandleShop-main/`), run:
+In the project root (`CandleShop`), run:
 
    ```bash
    docker-compose up --build
    ```
-
-2. The frontend application will be available on the configured port (usually `http://localhost` or `http://localhost:80`).
