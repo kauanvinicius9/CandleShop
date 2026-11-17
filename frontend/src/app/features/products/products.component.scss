@@ -19,10 +19,6 @@
     transition: .3s ease;
     white-space: nowrap;
 
-    &:hover {
-      opacity: .9;
-    }
-
     &.is-active {
       background: $color-blue-500-2;
       color: $color-white;

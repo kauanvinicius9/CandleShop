@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "collection": "sugar-berry",
+    "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Copo Vidro Quadrado",
     "category": "vela",
     "fragrance": "Morango, Doce, Fruta",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "collection": "sugar-berry",
+    "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Pote Patê",
     "category": "vela",
     "fragrance": "Morango, Doce, Fruta",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "collection": "sugar-berry",
+    "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Imponente na Taça (18cm)",
     "category": "vela",
     "fragrance": "Morango, Doce, Fruta",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "collection": "sugar-berry",
+    "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Flor de Cerejeira",
     "category": "vela",
     "fragrance": "Cereja",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "collection": "sugar-berry",
+    "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Lavanda",
     "category": "vela",
     "fragrance": "Floral, Fresca, Adocicada, Herbal",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "collection": "sugar-berry",
+    "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Olho Grego",
     "category": "vela",
     "fragrance": "Proteção, Energia, Peônia, Pavio de Madeira",
@@ -159,7 +159,7 @@
     "fragrance": "Floral, Sofisticação",
     "description": "",
     "price": 62.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 10
   },
   {
@@ -169,7 +169,7 @@
     "fragrance": "Leveza, Elegância",
     "description": "",
     "price": 62.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 10
   },
   {
@@ -189,7 +189,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 42.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 250
   },
   {
@@ -199,7 +199,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 37.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 250
   },
   {
@@ -209,7 +209,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 25.0,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 30
   },
   {
@@ -219,7 +219,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 20.0,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 25
   },
   {
@@ -229,7 +229,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 35.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 150
   },
   {
@@ -239,7 +239,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 39.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 150
   },
   {
@@ -249,7 +249,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 41.9,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 300
   },
   {
@@ -259,7 +259,7 @@
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
     "price": 35.0,
-    "imagePlaceholder": "assets/kits/KitDiffusorHomeSpray.webp",
+    "imagePlaceholder": "assets/kits/kitDiffusorHomeSpray.webp",
     "volumML": 250
   },
   {
@@ -320,7 +320,7 @@
   {
     "id": 31,
     "collection": "lembrancas",
-    "name": "Coleção Lembranças e Eventos: Trio de Velas (Vidro Patê com Fósforos) - Rótulo, Fita e Aroma Ajustados ao Tema de Sua Festa, Valor Negociável",
+    "name": "Coleção Lembranças e Eventos: Trio de Velas (Vidro Patê com Fósforos - Rótulo, Fita e Aroma Ajustados ao Tema de Sua Festa, Valor Negociável)",
     "category": "vela",
     "fragrance": "Escolha do Cliente",
     "description": "",
@@ -514,5 +514,27 @@
     "price": 99.0,
     "imagePlaceholder": "assets/candles/christmas/candleCeramic.webp",
     "weightG": 150
+  },
+  {
+    "id": 48,
+    "collection": "",
+    "name": "Home Spray Embalagem Pet",
+    "category": "homespray",
+    "fragrance": "Escolha entre: Flor de Hibisco, Amora, Flor de Cerejeira, Bamboo, Marine, Chá Branco e Dream Gold",
+    "description": "",
+    "price": 34.90,
+    "imagePlaceholder": "assets/homeSprays/homeSprayPet.webp",
+    "volumML": 300
+  },
+  {
+    "id": 49,
+    "collection": "",
+    "name": "Home Spray Refil",
+    "category": "homespray",
+    "fragrance": "Escolha entre: Flor de Hibisco, Amora, Flor de Cerejeira, Bamboo, Marine, Chá Branco e Dream Gold",
+    "description": "",
+    "price": 29.90,
+    "imagePlaceholder": "assets/homeSprays/homeSprayRefil.webp",
+    "volumML": 300
   }
 ]

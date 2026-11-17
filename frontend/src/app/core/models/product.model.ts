@@ -1,5 +1,5 @@
-export type ProductCategory = "vela" | "home-spray" | "difusor" | "kit";
-export type ProductCollection = "entretampos" | "sugar-berry" | "gourmet" | "fe" | "lembrancas" | "especiais" | "natal";
+export type ProductCategory = "vela" | "homespray" | "difusor" | "kit";
+export type ProductCollection = "entretampos" | "sugarberry" | "gourmet" | "fe" | "lembrancas" | "especiais" | "natal";
 
 export interface BulkPricing {
   minQuantity: number;

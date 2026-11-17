@@ -21,7 +21,7 @@ export class ProductsComponent implements OnInit {
     const products = this.allProducts();
 
     if (filter === "todos") return this.allProducts();
-    if (filter === "vela" || filter === "home-spray" || filter === "difusor" || filter === "kit") {
+    if (filter === "vela" || filter === "homespray" || filter === "difusor" || filter === "kit") {
       return products.filter((p) => p.category === filter);
     }
 
@@ -32,13 +32,13 @@ export class ProductsComponent implements OnInit {
     { value: "todos", label: "Todos os Produtos" },
     { value: "vela", label: "Todas as Velas" },
     { value: "natal", label: "Coleção Natal 2026" },
-    { value: "sugar-berry", label: "Coleção Sugar-Berry" },
+    { value: "sugarberry", label: "Coleção Sugar Berry" },
     { value: "gourmet", label: "Coleção Gourmet" },
     { value: "entretampos", label: "Coleção Entretampos" },
     { value: "especiais", label: "Coleção Especiais" },
     { value: "lembrancas", label: "Coleção Lembranças" },
     { value: "fe", label: "Coleção Fé" },
-    { value: "home-spray", label: "Home Sprays" },
+    { value: "homespray", label: "Home Sprays" },
     { value: "kit", label: "Kits" },
     { value: "difusor", label: "Difusores" }
   ];

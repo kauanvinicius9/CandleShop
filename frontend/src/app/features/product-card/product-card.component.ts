@@ -18,7 +18,7 @@ export class ProductCardComponent {
   get categoryLabel(): string {
     const labels: Record<string, string> = { 
       vela: "Vela", 
-      "home-spray": "Home Spray", 
+      "homespray": "Home Spray", 
       kit: "Kit",
       difusor: "Difusor" 
     };
