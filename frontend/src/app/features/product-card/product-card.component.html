@@ -6,7 +6,7 @@
 
     <span class="tag">{{ categoryLabel }}</span>
     <h3 class="product-card__name">{{ product.name }}</h3>
-    
+
     <p class="product-card__fragrance">
       <strong>Essência:</strong> {{ product.fragrance }}
     </p>
@@ -29,7 +29,7 @@
     @if (product.volumML) { <p class="product-card__weight">{{ product.volumML }}ml</p> }
     @if (product.weightG) { <p class="product-card__weight">{{ product.weightG }}g</p> }
 
-    <button class="product-card__button" type="button" (click)="openModal()">Compre pelo WhatsApp</button>
+    <button class="product-card__button" type="button" (click)="openModal()">Comprar via WhatsApp</button>
   </div>
 </article>
 
