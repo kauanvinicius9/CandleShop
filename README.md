@@ -17,21 +17,12 @@
 - **Language:** TypeScript, HTML5, SCSS.
 - **Routing:** Angular Router.
 
-### Infrastructure and Containers
-
-- **Docker:** Creation of standardized images and environments.
-- **Docker Compose:** Environment orchestration (frontend services).
-
----
-
 ## How to Execute the Project
 
 ### Prerequisites
 
 - **Node.js** (v18 or higher)
 - **npm** (v9 or higher)
-- **Docker** and **Docker Compose** (optional for containerized execution)
-
 ---
 
 ### Local Execution (Development)
@@ -55,13 +46,3 @@
    ```
 
 4. Access the application in the browser at `http://localhost:4200`.
-
----
-
-### Execution via Docker Compose
-
-In the project root (`CandleShop`), run:
-
-   ```bash
-   docker-compose up --build
-   ```
