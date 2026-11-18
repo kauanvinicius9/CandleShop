@@ -15,12 +15,12 @@ export class ConfirmationModalComponent {
 
     @ViewChild("dialogRef") dialogRef!: ElementRef<HTMLDialogElement>;
 
+    // Template do modal, sistema por trás
     constructor() {
         effect(() => {
             if (this.isOpen()) { 
                 this.dialogRef?.nativeElement.showModal() 
             } 
-            
             else { 
                 this.dialogRef?.nativeElement.close() 
             }

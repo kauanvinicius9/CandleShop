@@ -5,6 +5,8 @@ import emailjs from "@emailjs/browser";
 @Injectable({
     providedIn: "root"
 })
+
+// Integração emailjs
 export class EmailService {
     private readonly serviceid = "service_ghwllkl";
     private readonly templateid = "template_o6yst2t";

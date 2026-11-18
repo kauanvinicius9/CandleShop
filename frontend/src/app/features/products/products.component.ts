@@ -20,14 +20,15 @@ export class ProductsComponent implements OnInit {
     const filter = this.activeFilter();
     const products = this.allProducts();
 
+    // Filtragem de produtos, velas, homesprays, difusores e kits
     if (filter === "todos") return this.allProducts();
     if (filter === "vela" || filter === "homespray" || filter === "difusor" || filter === "kit") {
       return products.filter((p) => p.category === filter);
     }
-
     return products.filter((p) => p.collection === filter)
   });
 
+  // Produtos separados por coleções e categorias
   readonly filters: { value: FilterType; label: string }[] = [
     { value: "todos", label: "Todos os Produtos" },
     { value: "vela", label: "Todas as Velas" },

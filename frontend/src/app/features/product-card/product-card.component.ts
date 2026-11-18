@@ -12,6 +12,7 @@ import { ConfirmationModalComponent } from "../../confirmation-modal.component";
 export class ProductCardComponent {
   @Input({ required: true }) product!: Product;
 
+  // Integração com o WhatsApp
   readonly showConfirmModal = signal<boolean>(false);
   private readonly whatsappNumber = "5519999582649"; 
 
@@ -38,6 +39,7 @@ export class ProductCardComponent {
     this.showConfirmModal.set(false); this.redirectToWhatsApp(); 
   }
 
+  // Redirecionamento ao WhatsApp com mensagem pronta e dinâmica
   private redirectToWhatsApp(): void {
     const formattedPrice = this.product.price.toFixed(2).replace(".", ",");
     const text = `Olá! Gostaria de comprar o produto *${this.product.name}* (R$ ${formattedPrice}). Poderia me ajudar?`;

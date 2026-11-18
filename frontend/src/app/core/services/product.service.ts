@@ -3,6 +3,7 @@ import { Observable, of } from "rxjs";
 import { Product } from "../models/product.model";
 import productsData from "../../../assets/data/products.json";
 
+// Chamada dos dados em JSON
 @Injectable({ providedIn: "root" })
 export class ProductService {
   private readonly products: Product[] = productsData as Product[]

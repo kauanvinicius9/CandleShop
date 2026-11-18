@@ -9,4 +9,6 @@ import { RouterLink } from "@angular/router";
   styleUrl: "./footer.component.scss"
 })
 
-export class FooterComponent { readonly year = new Date().getFullYear(); }
+export class FooterComponent { 
+  readonly year = new Date().getFullYear();
+}

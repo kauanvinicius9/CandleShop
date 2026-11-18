@@ -11,6 +11,7 @@
       <strong>Essência:</strong> {{ product.fragrance }}
     </p>
 
+    <!-- Se o produto tiver uma descrição própria, aparecerá a descrição no card, se não tiver, aparecerá uma descrição padrão em todos os cards -->
     <p class="product-card__description">
       {{ product.description || "Produção artesanal sob encomenda. Até 3 dias úteis além da entrega." }}
     </p>
