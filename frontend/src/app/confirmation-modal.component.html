@@ -2,15 +2,10 @@
   <div class="modal-body">
     <h3>{{ title() }}</h3>
     <p>{{ message() }}</p>
-
     <div class="modal-actions">
-      <button type="button" class="btn-secondary" (click)="onCancel()">
-        Cancelar
-      </button>
-      
-      <button type="button" class="btn-primary" (click)="onConfirm()">
-        Confirmar
-      </button>
+
+      <button type="button" class="btn-secondary" (click)="onCancel()">Cancelar</button>
+      <button type="button" class="btn-primary" (click)="onConfirm()">Confirmar</button>
       
     </div>
   </div>
