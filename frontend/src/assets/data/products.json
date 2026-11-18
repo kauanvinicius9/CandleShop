@@ -426,12 +426,12 @@
     "category": "vela",
     "fragrance": "Edição Limitada de Natal",
     "description": "",
-    "price": 14.9,
+    "price": 12.9,
     "imagePlaceholder": "assets/candles/christmas/candlePostcard.webp",
     "weightG": 20,
     "bulkPricing": {
       "minQuantity": 10,
-      "unitPrice": 12.9
+      "unitPrice": 10.9
     }
   },
   {
@@ -522,7 +522,7 @@
     "category": "homespray",
     "fragrance": "Escolha entre: Flor de Hibisco, Amora, Flor de Cerejeira, Bamboo, Marine, Chá Branco e Dream Gold",
     "description": "",
-    "price": 34.90,
+    "price": 34.9,
     "imagePlaceholder": "assets/homeSprays/homeSprayPet.webp",
     "volumML": 300
   },
@@ -533,7 +533,7 @@
     "category": "homespray",
     "fragrance": "Escolha entre: Flor de Hibisco, Amora, Flor de Cerejeira, Bamboo, Marine, Chá Branco e Dream Gold",
     "description": "",
-    "price": 29.90,
+    "price": 29.9,
     "imagePlaceholder": "assets/homeSprays/homeSprayRefil.webp",
     "volumML": 300
   }
