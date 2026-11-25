@@ -1,0 +1,49 @@
+import { Component, Input, signal } from "@angular/core";
+import { Product } from "../../core/models/product.model";
+import { ConfirmationModalComponent } from "../../confirmation-modal.component";
+
+@Component({
+  selector: "app-product-card",
+  standalone: true,
+  imports: [ConfirmationModalComponent],
+  templateUrl: "./product-card.component.html",
+  styleUrl: "./product-card.component.scss"
+})
+export class ProductCardComponent {
+  @Input({ required: true }) product!: Product;
+
+  // Integração com o WhatsApp
+  readonly showConfirmModal = signal<boolean>(false);
+  private readonly whatsappNumber = "5519999582649"; 
+
+  get categoryLabel(): string {
+    const labels: Record<string, string> = { 
+      vela: "Vela", 
+      "homespray": "Home Spray", 
+      kit: "Kit",
+      difusor: "Difusor" 
+    };
+      
+    return labels[this.product.category] ?? this.product.category;
+  }
+
+  openModal(): void { 
+    this.showConfirmModal.set(true); 
+  }
+  
+  handleCancel(): void { 
+    this.showConfirmModal.set(false); 
+  }
+
+  handleConfirm(): void { 
+    this.showConfirmModal.set(false); this.redirectToWhatsApp(); 
+  }
+
+  // Redirecionamento ao WhatsApp com mensagem pronta e dinâmica
+  private redirectToWhatsApp(): void {
+    const formattedPrice = this.product.price.toFixed(2).replace(".", ",");
+    const text = `Olá! Gostaria de comprar o produto *${this.product.name}* (R$ ${formattedPrice}). Poderia me ajudar?`;
+    const whatsappUrl = `https://wa.me/${this.whatsappNumber}?text=${encodeURIComponent(text)}`;
+    window.location.href = whatsappUrl;
+  }
+}

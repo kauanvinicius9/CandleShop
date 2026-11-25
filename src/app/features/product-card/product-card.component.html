@@ -1,0 +1,43 @@
+<article class="product-card">
+  <div class="product-card__image">
+    <img src="{{ product.imagePlaceholder }}" alt="{{ product.name }}" loading="lazy"/>
+  </div>
+  <div class="product-card__body">
+
+    <span class="tag">{{ categoryLabel }}</span>
+    <h3 class="product-card__name">{{ product.name }}</h3>
+
+    <p class="product-card__fragrance">
+      <strong>Essência:</strong> {{ product.fragrance }}
+    </p>
+
+    <!-- Se o produto tiver uma descrição própria, aparecerá a descrição no card, se não tiver, aparecerá uma descrição padrão em todos os cards -->
+    <p class="product-card__description">
+      {{ product.description || "Produção artesanal sob encomenda. Até 3 dias úteis além da entrega." }}
+    </p>
+
+    <div class="product-card__price-container">
+      <p class="product-card__price">R$ {{ product.price.toFixed(2).replace(".", ",")}}</p>
+
+      @if (product.bulkPricing) {
+        <span class="product-card__bulk-badge">
+          A partir de {{ product.bulkPricing.minQuantity }} unidades:
+          <strong>{{ product.bulkPricing.unitPrice.toFixed(2).replace(".", ",")}}</strong> cada
+        </span>
+      }
+    </div>
+
+    @if (product.volumML) { <p class="product-card__weight">{{ product.volumML }}ml</p> }
+    @if (product.weightG) { <p class="product-card__weight">{{ product.weightG }}g</p> }
+
+    <button class="product-card__button" type="button" (click)="openModal()">Comprar via WhatsApp</button>
+  </div>
+</article>
+
+<app-confirmation-modal  
+[isOpen]="showConfirmModal()"  
+title="Comprar via WhatsApp"  
+[message]="'Você será redirecionado ao WhatsApp para finalizar o pedido: ' + product.name + '.'"  
+(confirmed)="handleConfirm()"  
+(cancelled)="handleCancel()" 
+/>
