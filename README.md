@@ -79,7 +79,7 @@ Access the application in the browser at `http://localhost:4200`.
 
 | System | Function |
 |-----|----------|
-| WhatsApp | Payment by our WhatsApp |
+| WhatsApp | Payment by our WhatsApp, credit card and Pix |
 | EmailJS | Send messages |
 
 ### Credits
