@@ -12,6 +12,7 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
 export class HeaderComponent {
   readonly isMenuOpen = signal<boolean>(false);
 
+  // Menu responsivo
   toggleMenu(): void { 
     this.isMenuOpen.update(open => !open); 
   }

@@ -32,6 +32,7 @@ export class ContactComponent {
     private readonly formBuilder: FormBuilder,
     private readonly emailService: EmailService
   ) {
+    // Validação de inputs
     this.contactForm = this.formBuilder.group({
       name: ["", [Validators.required, Validators.minLength(3), Validators.maxLength(100), noWhiteSpaceValidator]],
       email: ["", [Validators.required, Validators.pattern(this.emailRegex)]],

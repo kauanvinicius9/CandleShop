@@ -42,6 +42,7 @@
     <p class="section-subtitle">Uma seleção dos aromas favoritos dos nossos clientes.</p>
 
     <div class="featured__grid">
+      <!-- Mostra o skeleton loading enquanto o card do produto não carregar -->
       @if (isLoading()) {
         @for (item of skeletonItems; track item) {
           <app-skeleton-loading-card/>

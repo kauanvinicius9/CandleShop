@@ -59,6 +59,7 @@ export class ProductsComponent implements OnInit {
     this.activeFilter.set(filter); 
   }
 
+  // Carregamento de produtos
   loadProducts(): void {
     this.isLoading.set(true);
     this.productService

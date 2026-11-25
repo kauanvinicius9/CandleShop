@@ -36,6 +36,7 @@ export class HomeComponent implements OnInit {
     this.loadProducts();
   }
 
+  // Carregamento dos produtos
   loadProducts(): void {
     this.isLoading.set(true);
     this.productService
