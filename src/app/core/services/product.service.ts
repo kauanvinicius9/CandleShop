@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Observable, of } from "rxjs";
+import { delay, Observable, of } from "rxjs";
 import { Product } from "../models/product.model";
 import productsData from "../../../assets/data/products.json";
 
@@ -9,7 +9,9 @@ export class ProductService {
   private readonly products: Product[] = productsData as Product[]
 
   getAll(): Observable<Product[]> { 
-    return of(this.products); 
+    return of(this.products).pipe(
+      delay(1000)
+    ); 
   }
   
   getById(id: number): Observable<Product | undefined> { 

@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "sku": "VE-001",
     "collection": "entretampos",
     "name": "Coleção Entretampos: Lavanda",
     "category": "vela",
@@ -12,6 +13,7 @@
   },
   {
     "id": 2,
+    "sku": "VE-002",
     "collection": "entretampos",
     "name": "Coleção Entretampos: Pistache",
     "category": "vela",
@@ -23,6 +25,7 @@
   },
   {
     "id": 3,
+    "sku": "VE-003",
     "collection": "entretampos",
     "name": "Coleção Entretampos: Chá Branco",
     "category": "vela",
@@ -34,6 +37,7 @@
   },
   {
     "id": 4,
+    "sku": "VE-004",
     "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Copo Vidro Quadrado",
     "category": "vela",
@@ -45,6 +49,7 @@
   },
   {
     "id": 5,
+    "sku":"VE-005",
     "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Pote Patê",
     "category": "vela",
@@ -56,8 +61,9 @@
   },
   {
     "id": 6,
+    "sku": "VE-006",
     "collection": "sugarberry",
-    "name": "Coleção Sugar Berry: Imponente na Taça (18cm)",
+    "name": "Coleção Sugar Berry: Imponente na Taça",
     "category": "vela",
     "fragrance": "Morango, Doce, Fruta",
     "description": "",
@@ -67,6 +73,7 @@
   },
   {
     "id": 7,
+    "sku": "VE-007",
     "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Flor de Cerejeira",
     "category": "vela",
@@ -78,6 +85,7 @@
   },
   {
     "id": 8,
+    "sku": "VE-008",
     "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Lavanda",
     "category": "vela",
@@ -89,6 +97,7 @@
   },
   {
     "id": 9,
+    "sku": "VE-009",
     "collection": "sugarberry",
     "name": "Coleção Sugar Berry: Olho Grego",
     "category": "vela",
@@ -100,8 +109,9 @@
   },
   {
     "id": 10,
+    "sku": "VE-010",
     "collection": "gourmet",
-    "name": "Coleção Gourmet: Café (Caneca Esmalta)",
+    "name": "Coleção Gourmet: Café",
     "category": "vela",
     "fragrance": "Café, Doce",
     "description": "",
@@ -111,6 +121,7 @@
   },
   {
     "id": 11,
+    "sku": "VE-011",
     "collection": "gourmet",
     "name": "Coleção Gourmet: Chocolate Belga",
     "category": "vela",
@@ -122,8 +133,9 @@
   },
   {
     "id": 12,
+    "sku": "VE-012",
     "collection": "gourmet",
-    "name": "Coleção Gourmet: Chocolate Belga (Taça de Vidro)",
+    "name": "Coleção Gourmet: Chocolate Belga",
     "category": "vela",
     "fragrance": "Chocolate, Doce, Coco, Café Expresso",
     "description": "",
@@ -133,6 +145,7 @@
   },
   {
     "id": 13,
+    "sku": "VE-013",
     "collection": "fe",
     "name": "Coleção Fé: Nossa Senhora Aparecida / Nossa Senhora Perpétuo Socorro",
     "category": "vela",
@@ -144,7 +157,8 @@
   },
   {
     "id": 14,
-    "name": "Difusor Aromático: Morango (Consulte Cor da Cerâmica)",
+    "sku": "DI-001",
+    "name": "Difusor Aromático: Morango",
     "category": "difusor",
     "fragrance": "Doce, Vibrante",
     "description": "Feito com carinho, não em escala. Por serem artesanais, alguns produtos podem levar até 3 dias úteis para produção,além do prazo de entrega.",
@@ -154,7 +168,8 @@
   },
   {
     "id": 15,
-    "name": "Difusor Aromático: Jasmin (Consulte Cor da Cerâmica)",
+    "sku": "DI-002",
+    "name": "Difusor Aromático: Jasmin",
     "category": "difusor",
     "fragrance": "Floral, Sofisticação",
     "description": "",
@@ -164,7 +179,8 @@
   },
   {
     "id": 16,
-    "name": "Difusor Aromático: Chá Branco (Consulte Cor da Cerâmica)",
+    "sku": "DI-003",
+    "name": "Difusor Aromático: Chá Branco",
     "category": "difusor",
     "fragrance": "Leveza, Elegância",
     "description": "",
@@ -174,7 +190,8 @@
   },
   {
     "id": 17,
-    "name": "Aromatizador Veicular em Vidro (Tampa de Madeira)",
+    "sku": "DI-004",
+    "name": "Aromatizador Veicular em Vidro",
     "category": "difusor",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -184,7 +201,8 @@
   },
   {
     "id": 18,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro",
+    "sku": "KI-001",
+    "name": "Difusores e Home-Sprays: Difusor Vidro",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -194,7 +212,8 @@
   },
   {
     "id": 19,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Pet",
+    "sku": "KI-002",
+    "name": "Difusores e Home-Sprays: Difusor Pet",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -204,7 +223,8 @@
   },
   {
     "id": 20,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro",
+    "sku": "KI-003",
+    "name": "Difusores e Home-Sprays: Difusor Vidro",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -214,7 +234,8 @@
   },
   {
     "id": 21,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Difusor Vidro Para Cômodos",
+    "sku": "KI-004",
+    "name": "Difusores e Home-Sprays: Difusor Vidro Para Cômodos",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -224,7 +245,8 @@
   },
   {
     "id": 22,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Vidro - Bico do Spray",
+    "sku": "KI-005",
+    "name": "Difusores e Home-Sprays: Home-Spray Vidro - Bico do Spray",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -234,7 +256,8 @@
   },
   {
     "id": 23,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Vidro - Bico do Gatilho",
+    "sku": "KI-006",
+    "name": "Difusores e Home-Sprays: Home-Spray Vidro - Bico do Gatilho",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -244,7 +267,8 @@
   },
   {
     "id": 24,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Pet - Bico do Spray",
+    "sku": "KI-007",
+    "name": "Difusores e Home-Sprays: Home-Spray Pet - Bico do Spray",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -254,7 +278,8 @@
   },
   {
     "id": 25,
-    "name": "Difusores e Home-Sprays (Embalagem Vidro e Pet): Home-Spray Pet",
+    "sku": "KI-008",
+    "name": "Difusores e Home-Sprays: Home-Spray Pet",
     "category": "kit",
     "fragrance": "Bambu, Flor de Cerejeira",
     "description": "",
@@ -264,6 +289,7 @@
   },
   {
     "id": 26,
+    "sku": "VE-014",
     "collection": "especiais",
     "name": "Vela para Massagem: Alecrim e Chá Branco",
     "category": "vela",
@@ -275,6 +301,7 @@
   },
   {
     "id": 27,
+    "sku": "VE-015",
     "collection": "especiais",
     "name": "Vela para Massagem: Flor de Figo",
     "category": "vela",
@@ -286,6 +313,7 @@
   },
   {
     "id": 28,
+    "sku": "VE-016",
     "collection": "especiais",
     "name": "Vela para Massagem: Baunilha",
     "category": "vela",
@@ -297,6 +325,7 @@
   },
   {
     "id": 29,
+    "sku": "VE-017",
     "collection": "lembrancas",
     "name": "Coleção Lembranças e Eventos: Chá Revelação",
     "category": "vela",
@@ -308,8 +337,9 @@
   },
   {
     "id": 30,
+    "sku": "VE-018",
     "collection": "lembrancas",
-    "name": "Coleção Lembranças e Eventos: Cerveja (Copo Americano e Rótulo Personalizável) - Consulte Valores",
+    "name": "Coleção Lembranças e Eventos: Cerveja",
     "category": "vela",
     "fragrance": "Cera de Coco",
     "description": "",
@@ -319,8 +349,9 @@
   },
   {
     "id": 31,
+    "sku": "VE-019",
     "collection": "lembrancas",
-    "name": "Coleção Lembranças e Eventos: Trio de Velas (Vidro Patê com Fósforos - Rótulo, Fita e Aroma Ajustados ao Tema de Sua Festa, Valor Negociável)",
+    "name": "Coleção Lembranças e Eventos: Trio de Velas",
     "category": "vela",
     "fragrance": "Escolha do Cliente",
     "description": "",
@@ -330,6 +361,7 @@
   },
   {
     "id": 32,
+    "sku": "VE-020",
     "collection": "especiais",
     "name": "Edição Especial: Vela Bridgerton",
     "category": "vela",
@@ -341,8 +373,9 @@
   },
   {
     "id": 33,
+    "sku": "VE-021",
     "collection": "especiais",
-    "name": "Edição Especial: Vela Iceberg - Blue Ocean (Efeito de Bolhas e Textura Dupla)",
+    "name": "Edição Especial: Vela Iceberg - Blue Ocean",
     "category": "vela",
     "fragrance": "Fresco, Marinho, Revigorante",
     "description": "",
@@ -352,6 +385,7 @@
   },
   {
     "id": 34,
+    "sku": "VE-022",
     "name": "Bosque Secreto",
     "category": "vela",
     "fragrance": "English Pear",
@@ -362,6 +396,7 @@
   },
   {
     "id": 35,
+    "sku": "VE-023",
     "collection": "natal",
     "name": "Coleção de Natal: Vela Decorativa Anjo de Natal",
     "category": "vela",
@@ -373,6 +408,7 @@
   },
   {
     "id": 36,
+    "sku": "VE-023",
     "collection": "natal",
     "name": "Coleção de Natal: Bola de Natal Capadócia",
     "category": "vela",
@@ -384,6 +420,7 @@
   },
   {
     "id": 37,
+    "sku": "VE-024",
     "collection": "natal",
     "name": "Coleção de Natal: Latinhas Natalinas Charmosas",
     "category": "vela",
@@ -395,6 +432,7 @@
   },
   {
     "id": 38,
+    "sku": "VE-025",
     "collection": "natal",
     "name": "Coleção de Natal: Duo Velas Natalinas",
     "category": "vela",
@@ -406,6 +444,7 @@
   },
   {
     "id": 39,
+    "sku": "VE-026",
     "collection": "natal",
     "name": "Coleção de Natal: Mini Lata",
     "category": "vela",
@@ -421,6 +460,7 @@
   },
   {
     "id": 40,
+    "sku": "VE-027",
     "collection": "natal",
     "name": "Coleção de Natal: Mini Lata Cartão Postal Vintage",
     "category": "vela",
@@ -436,6 +476,7 @@
   },
   {
     "id": 41,
+    "sku": "VE-028",
     "collection": "natal",
     "name": "Coleção de Natal: Vela Luminária de Natal",
     "category": "vela",
@@ -447,8 +488,9 @@
   },
   {
     "id": 42,
+    "sku": "VE-029",
     "collection": "natal",
-    "name": "Coleção de Natal: Kit Sagrada Família (1 Vela Formato Sagrada Família, 1 Copo de Vidro Rótulo 'Feliz Natal')",
+    "name": "Coleção de Natal: Kit Sagrada Família",
     "category": "vela",
     "fragrance": "Edição Limitada de Natal",
     "description": "",
@@ -458,8 +500,9 @@
   },
   {
     "id": 43,
+    "sku": "VE-030",
     "collection": "natal",
-    "name": "Coleção de Natal: Kit Encanto Natalino (3 Velas 40g Cada, 2 Pinheiros e 1 Floco de Neve)",
+    "name": "Coleção de Natal: Kit Encanto Natalino",
     "category": "vela",
     "fragrance": "Edição Limitada de Natal",
     "description": "",
@@ -469,6 +512,7 @@
   },
   {
     "id": 44,
+    "sku": "VE-031",
     "collection": "natal",
     "name": "Coleção de Natal: Mini Bubble",
     "category": "vela",
@@ -484,6 +528,7 @@
   },
   {
     "id": 45,
+    "sku": "VE-032",
     "collection": "natal",
     "name": "Coleção de Natal: Lembrancinha Vela de Anjo",
     "category": "vela",
@@ -495,8 +540,9 @@
   },
   {
     "id": 46,
+    "sku": "VE-033",
     "collection": "natal",
-    "name": "Coleção de Natal: Kit Especial de Natal (Vela Bastão 'Feliz Natal' 40g + Mini Vela Latinha 20g)",
+    "name": "Coleção de Natal: Kit Especial de Natal",
     "category": "vela",
     "fragrance": "Edição Limitada de Natal",
     "description": "",
@@ -506,8 +552,9 @@
   },
   {
     "id": 47,
+    "sku": "VE-034",
     "collection": "natal",
-    "name": "Coleção de Natal: Vela em Peça de Cerâmica (O Pote Pode Ganhar Nova Utilidade na Decoração)",
+    "name": "Coleção de Natal: Vela em Peça de Cerâmica",
     "category": "vela",
     "fragrance": "Edição Limitada de Natal",
     "description": "",
@@ -517,6 +564,7 @@
   },
   {
     "id": 48,
+    "sku": "HS-001",
     "collection": "",
     "name": "Home Spray Embalagem Pet",
     "category": "homespray",
@@ -528,6 +576,7 @@
   },
   {
     "id": 49,
+    "sku": "HS-002",
     "collection": "",
     "name": "Home Spray Refil",
     "category": "homespray",
