@@ -39,9 +39,6 @@
           <div class="products__empty">
             @if (searchQuery().trim().length > 0) {
               <p>Nenhum produto encontrado para {{ searchQuery() }}.</p>
-              <button type="button" class="products__search" (click)="clearSearch()">
-                Limpar busca
-              </button>
             } @else {
               <p>Nenhum produto encontrado nessa categoria.</p>
             }

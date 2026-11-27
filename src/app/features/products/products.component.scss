@@ -10,16 +10,11 @@
     margin-bottom: 32px;
   }
 
-  &__search {
-    padding: 12px;
-    border-radius: $radius-sm;
-    background: $color-blue-500;
-    color: $color-white;
-    transition: .3s ease;
-
-    &:hover {
-      opacity: 0.9;
-    }
+  &__empty {
+    grid-column: 1 / -1;
+    padding: 32px 16px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   &__filter {
