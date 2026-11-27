@@ -46,7 +46,8 @@ export class ProductsComponent implements OnInit {
     { value: "fe", label: "Coleção Fé" },
     { value: "homespray", label: "Home Sprays" },
     { value: "kit", label: "Kits" },
-    { value: "difusor", label: "Difusores" }
+    { value: "difusor", label: "Difusores" },
+    { value: "queima-de-estoque", label: "Queima de Estoque" }
   ];
 
   constructor(private readonly productService: ProductService) {}

@@ -87,3 +87,8 @@ Access the application in the browser at `http://localhost:4200`.
 - Product: Reviva Ateliê | Velas & Aromas;
 - Payment: **WhatsApp**;
 - Message: [EmailJS](https://www.emailjs.com); `@emailjs/browser`;
+
+---
+
+> [!NOTE]
+We ask for your name and email address to indetify your inquiry. Your information is protected and will not be sold or shared with third parties.

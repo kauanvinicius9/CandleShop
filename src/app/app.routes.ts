@@ -20,5 +20,5 @@ export const routes: Routes = [
   },
 
   // Página 404 isolada
-  { path: "**", component: NotFoundComponent, title: "404 | Página Não Encontrada"}
+  { path: "**", component: NotFoundComponent, title: "404 | Página Não Encontrada" }
 ]
