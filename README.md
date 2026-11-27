@@ -1,5 +1,5 @@
 <h1>
-   <img src="./src/assets/logoRevivaIconWhite512x512.svg" alt="Logo Reviva" width="45" align="left">
+   <img src="./src/assets/logoRevivaIconWhite512x512.svg" alt="Logo Reviva" width="45" align="left" />
    <span>CandleShop Project Documentation</span>
 </h1>
 

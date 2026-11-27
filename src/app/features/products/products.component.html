@@ -25,6 +25,8 @@
       }
     </div>
 
+    <app-product-search [query]="searchQuery()" (queryChange)="onSearchChange($event)" (clearSearch)="clearSearch()"/>
+
     <div class="products__grid">
       @if (isLoading()) {
         @for (item of skeletonItems; track item) {
@@ -34,7 +36,16 @@
         @for (product of filteredProducts(); track product.id) {
           <app-product-card [product]="product"></app-product-card>
         } @empty { 
-          <p>Nenhum produto encontrado nessa categoria.</p> 
+          <div class="products__empty">
+            @if (searchQuery().trim().length > 0) {
+              <p>Nenhum produto encontrado para {{ searchQuery() }}.</p>
+              <button type="button" class="products__search" (click)="clearSearch()">
+                Limpar busca
+              </button>
+            } @else {
+              <p>Nenhum produto encontrado nessa categoria.</p>
+            }
+          </div>
         }
       }
     </div>

@@ -1,0 +1,9 @@
+<div class="product-search">
+    <img src="../../../assets/icons/search-icon.png" alt="Lupa de pesquisa" class="product-search__icon" loading="lazy" />
+
+    <input type="text" class="product-search__input" [value]="query()" [placeholder]="placeholder()" (input)="onInput($event)" aria-label="Limpar busca" />
+
+    @if (query().trim().length > 0) {
+        <button type="buttom" class="product-search__clear" (click)="onClear()" aria-label="Limpar busca">✕</button>
+    }
+</div>

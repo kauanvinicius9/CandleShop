@@ -2,6 +2,7 @@ import { Component, OnInit, computed, signal } from "@angular/core";
 import { Product, ProductCategory, ProductCollection } from "../../core/models/product.model";
 import { ProductService } from "../../core/services/product.service";
 import { ProductCardComponent } from "../product-card/product-card.component";
+import { ProductSearchComponent } from "../../shared/product-search/product-search.component";
 import { SkeletonLoadingComponent } from "../loadings/skeleton/skeleton-loading.component";
 import { finalize } from "rxjs";
 
@@ -10,7 +11,7 @@ type FilterType = ProductCategory | ProductCollection | "todos";
 @Component({
   selector: "app-products",
   standalone: true,
-  imports: [ProductCardComponent, SkeletonLoadingComponent],
+  imports: [ProductCardComponent, ProductSearchComponent, SkeletonLoadingComponent],
   templateUrl: "./products.component.html",
   styleUrl: "./products.component.scss"
 })
@@ -20,10 +21,23 @@ export class ProductsComponent implements OnInit {
 
   readonly allProducts = signal<Product[]>([]);
   readonly activeFilter = signal<FilterType>("todos");
+  readonly searchQuery = signal<string>("");
 
   readonly filteredProducts = computed(() => {
-    const filter = this.activeFilter();
+    const query = this.normalizeText(this.searchQuery().trim());
     const products = this.allProducts();
+
+    // Procura em todos os produtos por nome, SKU ou aroma quando há busca ativa
+    if (query) {
+      return products.filter((p) => {
+        const searchableText = this.normalizeText(
+          `${p.name} ${p.fragrance ?? ""} ${p.sku}`
+        );
+        return searchableText.includes(query);
+      });
+    }
+
+    const filter = this.activeFilter();
 
     // Filtragem de produtos, velas, homesprays, difusores e kits
     if (filter === "todos") return this.allProducts();
@@ -58,6 +72,15 @@ export class ProductsComponent implements OnInit {
 
   setFilter(filter: FilterType): void { 
     this.activeFilter.set(filter); 
+    this.searchQuery.set("");
+  }
+
+  onSearchChange(value: string): void {
+    this.searchQuery.set(value);
+  }
+
+  clearSearch(): void {
+    this.searchQuery.set("");
   }
 
   // Carregamento de produtos
@@ -70,5 +93,9 @@ export class ProductsComponent implements OnInit {
         next: (products) => this.allProducts.set(products),
         error: (err) => console.error("Erro ao carregar produtos:", err)
     });
+  }
+
+  private normalizeText(text: string): string {
+    return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
 }

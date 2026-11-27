@@ -10,9 +10,21 @@
     margin-bottom: 32px;
   }
 
+  &__search {
+    padding: 12px;
+    border-radius: $radius-sm;
+    background: $color-blue-500;
+    color: $color-white;
+    transition: .3s ease;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
   &__filter {
     padding: 10px 20px;
-    border-radius: 7px;
+    border-radius: $radius-sm;
     background: $color-white;
     color: $color-blue-500-2;
     box-shadow: $shadow-soft;
