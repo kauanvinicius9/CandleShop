@@ -26,6 +26,9 @@ Access to and navigation of the site are intended exclusively for personal and l
 
 **CandleShop** is a web application focused on the presentation and sale of handcrafted candles. The platform offers a clean and modern user experience, highlighting the product catalog and providing direct contact and institutional channels.
 
+> [!WARNING]
+All products are separated by **category**, **collection**, **ID** and **Stock Keeping Unit (SKU)**.  The products range between candles, diffusors and home sprays. **Reviva Ateliê** is not a store. The handmade production is 100% homemade. Even without a complex warehouse system, codes like `VE-001` or `HS-002` helps to separate package, box, label or jar making it easier when check a product.
+
 ---
 
 ## Technologies Used
