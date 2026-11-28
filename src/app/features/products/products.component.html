@@ -28,7 +28,7 @@
     <app-product-search [query]="searchQuery()" (queryChange)="onSearchChange($event)" (clearSearch)="clearSearch()"/>
 
     <div class="products__grid">
-      @if (isLoading()) {
+      @if (showLoading()) {
         @for (item of skeletonItems; track item) {
           <app-skeleton-loading-card/>
         }

@@ -1,4 +1,4 @@
-import { Component, OnInit, computed, signal } from "@angular/core";
+import { Component, OnInit, computed, signal, OnDestroy } from "@angular/core";
 import { Product, ProductCategory, ProductCollection } from "../../core/models/product.model";
 import { ProductService } from "../../core/services/product.service";
 import { ProductCardComponent } from "../product-card/product-card.component";
@@ -15,9 +15,15 @@ type FilterType = ProductCategory | ProductCollection | "todos";
   templateUrl: "./products.component.html",
   styleUrl: "./products.component.scss"
 })
-export class ProductsComponent implements OnInit {
+export class ProductsComponent implements OnInit, OnDestroy {
   readonly isLoading = signal(true);
+  readonly isSearching = signal(false);
+  readonly isFiltering = signal(false);
   readonly skeletonItems = [1, 2, 3, 4, 5];
+
+  readonly showLoading = computed(() => this.isLoading() || this.isSearching() || this.isFiltering());
+  private searchTimeout: ReturnType<typeof setTimeout> | null = null; 
+  private filterTimeout: ReturnType<typeof setTimeout> | null = null;
 
   readonly allProducts = signal<Product[]>([]);
   readonly activeFilter = signal<FilterType>("todos");
@@ -71,16 +77,53 @@ export class ProductsComponent implements OnInit {
   }
 
   setFilter(filter: FilterType): void { 
-    this.activeFilter.set(filter); 
+    this.clearSearchTimeout();
+    this.clearFilterTimeout();
+
+    this.isSearching.set(false);
     this.searchQuery.set("");
+    this.activeFilter.set(filter);
+    
+    // Ativa o skeleton quando clica em uma coleção ou categoria
+    this.isFiltering.set(true);
+
+    // Desativa 250ms depois que selecionar a categoria ou coleção
+    this.filterTimeout = setTimeout(() => {
+      this.isFiltering.set(false);
+    }, 250);
   }
 
   onSearchChange(value: string): void {
     this.searchQuery.set(value);
+    this.clearSearchTimeout();
+    this.clearFilterTimeout();
+    this.isFiltering.set(false);
+
+    if (!value.trim()) {
+      this.isSearching.set(false);
+      return;
+    }
+
+    // Ativa o skeleton enquanto estiver digitando
+    this.isSearching.set(true);
+    
+    // Desativa 300ms depois que parar de digitar
+    this.searchTimeout = setTimeout(() => {
+      this.isSearching.set(false);
+    }, 300);
   }
 
   clearSearch(): void {
+    this.clearSearchTimeout();
+    this.clearFilterTimeout();
+    this.isSearching.set(false);
+    this.isFiltering.set(false);
     this.searchQuery.set("");
+  }
+
+  ngOnDestroy(): void {
+    this.clearSearchTimeout();
+    this.clearFilterTimeout();
   }
 
   // Carregamento de produtos
@@ -97,5 +140,19 @@ export class ProductsComponent implements OnInit {
 
   private normalizeText(text: string): string {
     return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
+  private clearSearchTimeout(): void {
+    if (this.searchTimeout) {
+      clearTimeout(this.searchTimeout);
+      this.searchTimeout = null;
+    }
+  }
+
+  private clearFilterTimeout(): void {
+    if (this.filterTimeout) {
+      clearTimeout(this.filterTimeout);
+      this.filterTimeout = null
+    }
   }
 }
